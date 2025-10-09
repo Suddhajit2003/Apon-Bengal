@@ -61,7 +61,7 @@ export default function QuickServices() {
             আমাদের লক্ষ্য
           </h2> */}
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Apon Bangla is an initiative to expand its engagement with the state’s diaspora across the globe.
+            Apon Bangla is an initiative to expand its engagement with the state's diaspora across the globe.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-6 rounded-full"></div>
         </div>
@@ -75,20 +75,29 @@ export default function QuickServices() {
                 key={index}
                 ref={(el) => { cardsRef.current[index] = el; }}
                 onClick={() => navigate(card.path)}
-                className={`group relative ${isMission ? 'bg-gradient-to-br from-sky-400 to-sky-600' : 'bg-white'} rounded-2xl shadow-xl transition-all duration-500 cursor-pointer transform hover:scale-105`}
+                className={`group relative ${isMission ? 'bg-gradient-to-br from-sky-400 to-sky-600' : 'bg-white'} rounded-2xl shadow-xl transition-all duration-500 cursor-pointer transform hover:scale-105 overflow-hidden ${
+                  isMission 
+                    ? 'border-2 border-transparent group-hover:border-white' 
+                    : 'border-2 border-gray-200 group-hover:border-sky-500'
+                }`}
               >
-                {/* Animated Border Effect */}
-                <div className={`absolute inset-0 rounded-2xl ${isMission ? 'border-4 border-white/30 group-hover:border-white' : 'border-4 border-transparent group-hover:border-sky-500'} transition-all duration-500`}></div>
-                
                 {/* Illustration Background */}
-                <div className={`absolute bottom-0 right-0 text-[120px] ${isMission ? 'opacity-20' : 'opacity-10'} transition-opacity duration-500 leading-none`}>
+                <div className={`absolute bottom-0 right-0 text-[120px] transition-opacity duration-500 leading-none pointer-events-none ${
+                  isMission 
+                    ? 'opacity-20 group-hover:opacity-30' 
+                    : 'opacity-10 group-hover:opacity-20'
+                }`}>
                   {card.illustration}
                 </div>
 
                 {/* Content */}
                 <div className="relative px-16 py-20 min-h-[250px] flex flex-col items-center justify-center text-center">
                   {/* Title */}
-                  <h3 className={`text-4xl font-bold ${isMission ? 'text-gray-900' : 'text-gray-800'}`}>
+                  <h3 className={`text-4xl font-bold transition-colors duration-500 ${
+                    isMission 
+                      ? 'text-white' 
+                      : 'text-sky-600'
+                  }`}>
                     {card.titleEn}
                   </h3>
                 </div>

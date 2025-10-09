@@ -3,7 +3,7 @@ import { Globe, Phone, User, Bell } from 'lucide-react';
 import HeaderLogo from '/src/Public/Header_Logo.png';
 
 export default function Header() {
-  const [language, setLanguage] = useState('bn');
+  const [language, setLanguage] = useState('en');
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
