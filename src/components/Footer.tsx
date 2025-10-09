@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Youtube, Mail, MapPin, Phone } from 'lucide-react';
+import Logo from '/src/Public/Logo.png';
 
 export default function Footer() {
   return (
@@ -8,12 +9,14 @@ export default function Footer() {
           {/* About */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                <span className="text-xl">🏛️</span>
-              </div>
-              <div>
+              <img 
+                src={Logo} 
+                alt="আপন বাংলা Logo" 
+                className="h-12 w-auto"
+              />
+              {/* <div>
                 <h3 className="text-white">আপন বাংলা</h3>
-              </div>
+              </div> */}
             </div>
             <p className="text-sky-100 text-sm mb-4">
               West Bengal Government's digital initiative for transparent and efficient public services.

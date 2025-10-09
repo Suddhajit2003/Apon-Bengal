@@ -1,14 +1,11 @@
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PageLoader from './components/PageLoader';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import QuickServices from './components/QuickServices';
-import StatsCounter from './components/StatsCounter';
-import VideoShowcase from './components/VideoShowcase';
-import EmergencyServices from './components/EmergencyServices';
-import AboutUs from './components/AboutUs';
-import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import Mission from './pages/Mission';
+import Vision from './pages/Vision';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,8 +15,8 @@ export default function App() {
     // Prevent scrolling while loading
     document.body.style.overflow = 'hidden';
 
-    // Set a minimum time to show the loader (4.5 seconds to match slower progress)
-    const minLoadTime = 4500;
+    // Set a minimum time to show the loader (2 seconds for faster loading)
+    const minLoadTime = 2000;
     const startTime = Date.now();
 
     const hideLoader = () => {
@@ -52,7 +49,7 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <Router>
       {showLoader && (
         <div
           className={`fixed inset-0 z-[9999] transition-all duration-1000 ${
@@ -68,15 +65,13 @@ export default function App() {
         }`}
       >
         <Header />
-        <HeroSection />
-        <QuickServices />
-        <StatsCounter />
-        <VideoShowcase />
-        <EmergencyServices />
-        <AboutUs />
-        <FAQ />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/vision" element={<Vision />} />
+        </Routes>
         <Footer />
       </div>
-    </>
+    </Router>
   );
 }

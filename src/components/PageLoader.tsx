@@ -5,8 +5,8 @@ export default function PageLoader() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    // Slower, smoother progress animation
-    const duration = 4000; // 4 seconds - slower loading
+    // Faster, smoother progress animation
+    const duration = 1800; // 1.8 seconds - faster loading
     const steps = 100;
     const increment = 100 / steps;
     const stepDuration = duration / steps;

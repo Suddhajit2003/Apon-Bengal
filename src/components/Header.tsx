@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe, Search, Phone, User, Bell, ChevronDown } from 'lucide-react';
+import { Menu, X, Globe, Phone, User, Bell, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import Logo from '/src/Public/Logo.png';
 
@@ -7,7 +7,6 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState('bn');
   const [isScrolled, setIsScrolled] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -134,12 +133,6 @@ export default function Header() {
 
           {/* Action Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <button
-              onClick={() => setSearchOpen(!searchOpen)}
-              className="p-2.5 text-sky-600 hover:bg-sky-50 rounded-xl transition-all duration-300 hover:scale-110"
-            >
-              <Search className="w-5 h-5" />
-            </button>
             <button className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-6 py-2.5 rounded-xl hover:from-sky-600 hover:to-sky-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               {language === 'bn' ? 'লগইন' : 'Login'}
             </button>
@@ -153,31 +146,6 @@ export default function Header() {
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
-
-        {/* Search Bar */}
-        <AnimatePresence>
-          {searchOpen && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="overflow-hidden"
-            >
-              <div className="pb-4">
-                <div className="relative">
-                  <input
-                    type="text"
-                    placeholder={language === 'bn' ? 'সেবা খুঁজুন...' : 'Search services...'}
-                    className="w-full px-6 py-3.5 pl-12 bg-sky-50 border-2 border-sky-100 rounded-xl focus:outline-none focus:border-sky-500 transition-all duration-300"
-                    autoFocus
-                  />
-                  <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-sky-400" />
-                </div>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </div>
 
       {/* Mobile Navigation */}

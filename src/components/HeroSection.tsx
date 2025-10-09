@@ -18,7 +18,7 @@ export default function HeroSection() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="https://res.cloudinary.com/dmpuonbwk/video/upload/v1759389552/demo_1_1_y45zac.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dmpuonbwk/video/upload/v1760024428/WhatsApp_Video_2025-10-09_at_20.59.54_m1nvwz.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
