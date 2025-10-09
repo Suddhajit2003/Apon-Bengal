@@ -63,7 +63,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white mb-4">যোগাযোগ</h3>
+            <h3 className="text-white mb-4">address</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sky-100 text-sm">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
