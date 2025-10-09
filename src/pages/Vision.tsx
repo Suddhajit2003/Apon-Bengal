@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Target, Sparkles, Globe2, Users } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -7,76 +7,103 @@ export default function Vision() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-sky-50">
+    <div className="min-h-screen bg-white">
       <Header />
       
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      {/* Hero Section with Gradient Accent */}
+      <section className="relative py-12 overflow-hidden">
+        {/* Subtle Background Pattern */}
+        <div className="absolute inset-0 bg-gradient-to-br from-sky-50/50 via-white to-blue-50/30"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-sky-100/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-100/20 rounded-full blur-3xl"></div>
+        
+        <div className="container mx-auto px-4 relative z-10">
           {/* Back Button */}
           <button
             onClick={() => navigate('/')}
-            className="flex items-center gap-2 text-sky-600 hover:text-sky-700 mb-8 transition-colors"
+            className="group flex items-center gap-2 text-gray-600 hover:text-sky-600 mb-12 transition-all duration-300"
           >
-            <ArrowLeft className="w-5 h-5" />
-            <span className="text-lg">ফিরে যান</span>
+            <div className="p-2 rounded-full bg-gray-100 group-hover:bg-sky-100 transition-colors duration-300">
+              <ArrowLeft className="w-4 h-4" />
+            </div>
+            <span className="text-base font-medium">ফিরে যান</span>
           </button>
 
-          {/* Header */}
-          <div className="text-center mb-16">
-            <div className="inline-block mb-4">
-              {/* <span className="text-8xl">👁️</span> */}
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-sky-600">
-              আমাদের দৃষ্টিভঙ্গি
-            </h1>
-            <p className="text-2xl text-gray-600">
-              Our Vision
-            </p>
-            <div className="w-32 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-6 rounded-full"></div>
-          </div>
-
-          {/* Content */}
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-3xl shadow-xl p-12 mb-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                আমাদের দৃষ্টিভঙ্গি
-              </h2>
-              <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                একটি ডিজিটাল পশ্চিমবঙ্গ গড়ে তোলা যেখানে প্রতিটি নাগরিক ঘরে বসে সহজেই সরকারি সেবা পাবেন। আমরা স্বপ্ন দেখি এমন একটি রাজ্যের যেখানে প্রযুক্তি ও সেবা একসাথে মিলিত হয়ে জনগণের জীবনযাত্রার মান উন্নত করে।
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                আমাদের দৃষ্টিভঙ্গি হল এমন একটি পশ্চিমবঙ্গ তৈরি করা যেখানে প্রযুক্তি এবং উদ্ভাবন সবার জীবনকে সহজ করে তোলে। আমরা চাই প্রতিটি নাগরিক ডিজিটাল সেবার মাধ্যমে তাদের প্রয়োজনীয় সব সেবা সহজেই পেতে পারে।
-              </p>
+          {/* Main Content Container */}
+          <div className="max-w-6xl mx-auto">
+            {/* Vision Icon Badge */}
+            <div className="flex justify-center mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-sky-50 to-blue-50 border border-sky-100 rounded-full">
+                <Sparkles className="w-4 h-4 text-sky-600" />
+                <span className="text-sm font-medium text-sky-700">Our Vision for Tomorrow</span>
+              </div>
             </div>
 
-            {/* Key Points */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-sky-400 to-sky-600 rounded-2xl shadow-lg p-8 text-white">
-                <h3 className="text-2xl font-bold mb-4">ডিজিটাল পশ্চিমবঙ্গ</h3>
-                <p className="text-lg">
-                  সম্পূর্ণ ডিজিটাল রাজ্য গড়ে তোলা যেখানে সব সেবা অনলাইনে পাওয়া যাবে।
-                </p>
+            {/* Main Vision Card */}
+            <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 overflow-hidden hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-shadow duration-500">
+              {/* Accent Bar */}
+              <div className="h-1.5 bg-gradient-to-r from-sky-400 via-blue-500 to-sky-600"></div>
+              
+              <div className="p-8 md:p-16">
+                {/* Icon */}
+                <div className="flex justify-center mb-8">
+                  <div className="p-4 bg-gradient-to-br from-sky-100 to-blue-100 rounded-2xl">
+                    <Target className="w-12 h-12 text-sky-600" />
+                  </div>
+                </div>
+
+                {/* Title */}
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-10 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 bg-clip-text text-transparent leading-tight">
+                  Our Vision
+                </h1>
+
+                {/* Vision Statement */}
+                <div className="max-w-4xl mx-auto">
+                  <p className="text-xl md:text-2xl lg:text-3xl text-gray-700 leading-relaxed text-center font-normal">
+                    An effective one stop communication portal enabling all{' '}
+                    <span className="font-semibold text-sky-600">NRBs</span> to become a seamless extension of the community of{' '}
+                    <span className="font-semibold text-sky-600">West Bengal</span> and participate in the development of West Bengal.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature Pills */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+              <div className="group bg-gradient-to-br from-white to-sky-50/50 rounded-xl p-6 border border-gray-100 hover:border-sky-200 transition-all duration-300 hover:shadow-lg">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-sky-100 rounded-lg group-hover:bg-sky-200 transition-colors duration-300">
+                    <Globe2 className="w-6 h-6 text-sky-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800 mb-1">One Stop Portal</h3>
+                    <p className="text-sm text-gray-600">Unified platform for all communication</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="bg-gradient-to-br from-sky-500 to-sky-700 rounded-2xl shadow-lg p-8 text-white">
-                <h3 className="text-2xl font-bold mb-4">সহজ প্রবেশাধিকার</h3>
-                <p className="text-lg">
-                  প্রতিটি নাগরিক ঘরে বসে সহজেই সরকারি সেবা পাবেন, কোনো ঝামেলা ছাড়াই।
-                </p>
+              <div className="group bg-gradient-to-br from-white to-blue-50/50 rounded-xl p-6 border border-gray-100 hover:border-blue-200 transition-all duration-300 hover:shadow-lg">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-blue-100 rounded-lg group-hover:bg-blue-200 transition-colors duration-300">
+                    <Users className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800 mb-1">Community Extension</h3>
+                    <p className="text-sm text-gray-600">Seamless integration with NRBs</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="bg-gradient-to-br from-sky-400 to-sky-600 rounded-2xl shadow-lg p-8 text-white">
-                <h3 className="text-2xl font-bold mb-4">উন্নত জীবনযাত্রা</h3>
-                <p className="text-lg">
-                  প্রযুক্তির মাধ্যমে নাগরিকদের জীবনযাত্রার মান উন্নত করা।
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-sky-500 to-sky-700 rounded-2xl shadow-lg p-8 text-white">
-                <h3 className="text-2xl font-bold mb-4">স্মার্ট সমাধান</h3>
-                <p className="text-lg">
-                  আধুনিক প্রযুক্তি ব্যবহার করে স্মার্ট সমাধান প্রদান করা।
-                </p>
+              <div className="group bg-gradient-to-br from-white to-sky-50/50 rounded-xl p-6 border border-gray-100 hover:border-sky-200 transition-all duration-300 hover:shadow-lg">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 bg-sky-100 rounded-lg group-hover:bg-sky-200 transition-colors duration-300">
+                    <Sparkles className="w-6 h-6 text-sky-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800 mb-1">Development Focus</h3>
+                    <p className="text-sm text-gray-600">Participate in regional growth</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -86,4 +113,3 @@ export default function Vision() {
     </div>
   );
 }
-
