@@ -55,7 +55,7 @@ export default function QuickServices() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="text-6xl">🌟</span>
+            {/* <span className="text-6xl">🌟</span> */}
           </div>
           <h2 className="text-4xl md:text-5xl mb-4 text-sky-600">
             আমাদের লক্ষ্য
