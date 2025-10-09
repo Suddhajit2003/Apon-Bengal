@@ -24,7 +24,7 @@ export default function Vision() {
           {/* Header */}
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="text-8xl">👁️</span>
+              {/* <span className="text-8xl">👁️</span> */}
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 text-sky-600">
               আমাদের দৃষ্টিভঙ্গি
