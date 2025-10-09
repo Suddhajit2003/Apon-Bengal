@@ -40,9 +40,9 @@ export default function HeroSection() {
           }`}
           style={{ transitionDelay: '300ms' }}
         >
-          West Bengal Government Digital Services
+          Re-root yourself in Bengal
           <br />
-          সহজ, দ্রুত এবং স্বচ্ছ সেবা
+          {/* সহজ, দ্রুত এবং স্বচ্ছ সেবা */}
         </p>
         <div 
           className={`flex gap-4 justify-center flex-wrap transition-all duration-600 ${
@@ -51,11 +51,11 @@ export default function HeroSection() {
           style={{ transitionDelay: '500ms' }}
         >
           <button className="bg-white text-sky-600 px-8 py-3 rounded-lg hover:bg-sky-50 transition-all transform hover:scale-105 flex items-center gap-2">
-            সেবা খুঁজুন
+            Enter
             <ArrowRight className="w-5 h-5" />
           </button>
           <button className="bg-sky-500 text-white px-8 py-3 rounded-lg hover:bg-sky-600 transition-all transform hover:scale-105 border-2 border-white">
-            নাগরিক লগইন
+          Login
           </button>
         </div>
       </div>

@@ -103,7 +103,7 @@ export default function AboutUs() {
             <span className="text-6xl">📖</span>
           </div>
           <h2 className="text-4xl md:text-5xl mb-4 text-sky-600">
-            আমাদের সম্পর্কে
+          আপন বাংলা সম্পর্কে
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             About Apon Bangla - পশ্চিমবঙ্গ সরকারের উদ্যোগ

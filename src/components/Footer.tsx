@@ -18,9 +18,9 @@ export default function Footer() {
                 <h3 className="text-white">আপন বাংলা</h3>
               </div> */}
             </div>
-            <p className="text-sky-100 text-sm mb-4">
+            {/* <p className="text-sky-100 text-sm mb-4">
               West Bengal Government's digital initiative for transparent and efficient public services.
-            </p>
+            </p> */}
             <div className="flex gap-3">
               <a href="#" className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition-colors">
                 <Facebook className="w-4 h-4" />
@@ -39,25 +39,25 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white mb-4">দ্রুত লিঙ্ক</h3>
+            <h3 className="text-white mb-4">XXXX</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">হোম</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">সেবা</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">অর্জন</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">সংবাদ</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">যোগাযোগ</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="text-white mb-4">জনপ্রিয় সেবা</h3>
+            <h3 className="text-white mb-4">XXXX</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">জন্ম সনদ</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">রেশন কার্ড</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">সম্পত্তি নথি</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">শিক্ষা সেবা</a></li>
-              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">স্বাস্থ্য সেবা</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
+              <li><a href="#" className="text-sky-100 hover:text-white transition-colors text-sm">XXX</a></li>
             </ul>
           </div>
 

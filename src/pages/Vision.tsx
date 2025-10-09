@@ -82,6 +82,7 @@ export default function Vision() {
           </div>
         </div>
       </section>
+
     </div>
   );
 }
