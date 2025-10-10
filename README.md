@@ -99,5 +99,3 @@ src/
 Private project
 
 ---
-
-Original Figma design: https://www.figma.com/design/pb9djPBFe8kPUrQNlsAaYr/Enhance-Popular-Services-Section
