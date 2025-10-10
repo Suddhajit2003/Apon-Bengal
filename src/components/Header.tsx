@@ -71,7 +71,7 @@ export default function Header() {
               <img 
                 src={HeaderLogo} 
                 alt="আপন বাংলা Logo" 
-                className="h-14 w-auto transform group-hover:scale-110 transition-all duration-300"
+                className="h-20 w-auto transform group-hover:scale-110 transition-all duration-300"
               />
             </div>
             {/* <div>
