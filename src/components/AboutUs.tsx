@@ -106,7 +106,7 @@ export default function AboutUs() {
           আমাদের আপন বাংলা
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            About Apon Bangla - পশ্চিমবঙ্গ সরকারের উদ্যোগ
+            পশ্চিমবঙ্গ সরকারের উদ্যোগ
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-6 rounded-full"></div>
         </div>
