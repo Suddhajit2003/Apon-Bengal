@@ -61,7 +61,7 @@ export default function QuickServices() {
             আমাদের লক্ষ্য
           </h2> */}
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Apon Bangla is an initiative to expand its engagement with the state's diaspora across the globe.
+            Apon Bangla is an initiative to expand its engagement with the state's diaspora Spread across the globe.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-6 rounded-full"></div>
         </div>
