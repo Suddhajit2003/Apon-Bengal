@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PageLoader from './components/PageLoader';
 import Header from './components/Header';
@@ -6,6 +6,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Mission from './pages/Mission';
 import Vision from './pages/Vision';
+import Festivals from './pages/Festivals';
+import StateEvents from './pages/StateEvents';
+import HelpAndSupport from './pages/HelpAndSupport';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -69,6 +72,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/mission" element={<Mission />} />
           <Route path="/vision" element={<Vision />} />
+          <Route path="/festivals" element={<Festivals />} />
+          <Route path="/state-events" element={<StateEvents />} />
+          <Route path="/help-support" element={<HelpAndSupport />} />
         </Routes>
         <Footer />
       </div>

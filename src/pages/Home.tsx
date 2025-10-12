@@ -14,8 +14,8 @@ export default function Home() {
       {/* <StatsCounter /> */}
       <AboutUs />
       {/* <FAQ /> */}
-      {/* <EmergencyServices /> */}
       <VideoShowcase />
+      <EmergencyServices />
     </>
   );
 }
