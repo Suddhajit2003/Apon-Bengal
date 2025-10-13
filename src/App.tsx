@@ -18,8 +18,8 @@ export default function App() {
     // Prevent scrolling while loading
     document.body.style.overflow = 'hidden';
 
-    // Set a minimum time to show the loader (2 seconds for faster loading)
-    const minLoadTime = 2000;
+    // Set a minimum time to show the loader (6 seconds)
+    const minLoadTime = 6000;
     const startTime = Date.now();
 
     const hideLoader = () => {

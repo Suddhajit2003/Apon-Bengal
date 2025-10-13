@@ -7,6 +7,7 @@ export default function HelpAndSupport() {
     email: '',
     phone: '',
     cardNo: '',
+    issuePertaining: '',
     message: ''
   });
   const [focusedField, setFocusedField] = useState('');
@@ -182,6 +183,43 @@ export default function HelpAndSupport() {
                       }`}
                       required
                     />
+                  </div>
+                </div>
+
+                {/* Issue Pertaining To */}
+                <div className="relative">
+                  <label htmlFor="issuePertaining" className="block text-sm font-semibold text-gray-700 mb-2">
+                    Issue pertaining to: *
+                  </label>
+                  <div className="relative">
+                    <select
+                      id="issuePertaining"
+                      name="issuePertaining"
+                      value={formData.issuePertaining}
+                      onChange={handleInputChange}
+                      onFocus={() => setFocusedField('issuePertaining')}
+                      onBlur={() => setFocusedField('')}
+                      className={`w-full pl-4 pr-4 py-4 bg-gray-50 border-2 rounded-xl focus:outline-none transition-all duration-300 appearance-none cursor-pointer ${
+                        focusedField === 'issuePertaining' 
+                          ? 'border-blue-500 bg-white shadow-lg shadow-blue-100' 
+                          : 'border-gray-200 hover:border-gray-300'
+                      }`}
+                      required
+                    >
+                      <option value="" disabled>Select an issue category</option>
+                      <option value="health">Health</option>
+                      <option value="police">Police</option>
+                      <option value="education">Education</option>
+                      <option value="ica">I&CA</option>
+                      <option value="tourism">Tourism</option>
+                      <option value="others">Others</option>
+                    </select>
+                    {/* Custom dropdown arrow */}
+                    <div className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
 

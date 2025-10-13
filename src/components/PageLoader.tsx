@@ -5,8 +5,8 @@ export default function PageLoader() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    // Faster, smoother progress animation
-    const duration = 1800; // 1.8 seconds - faster loading
+    // Progress animation matching loader duration
+    const duration = 5800; // 5.8 seconds - matches 6 second loader
     const steps = 100;
     const increment = 100 / steps;
     const stepDuration = duration / steps;
@@ -83,12 +83,11 @@ export default function PageLoader() {
         {/* Background Video */}
         <video
           autoPlay
-          loop
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="https://res.cloudinary.com/dmpuonbwk/video/upload/v1759388328/gif_vid_hzxekj.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dlalsmidm/video/upload/v1760386083/WhatsApp_Video_2025-10-14_at_00_online-video-cutter.com_m0kxsy.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay Gradient */}

@@ -5,85 +5,85 @@ import { Phone, X } from 'lucide-react';
 const festivalsImages = [
   {
     id: 1,
-    title: 'দুর্গা পূজা',
-    titleEn: 'Durga Puja',
+    title: 'বসন্ত উৎসব ও হোলি',
+    titleEn: 'Basanta Utsab & Holi',
     image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800',
     span: 'row-span-2'
   },
   {
     id: 2,
-    title: 'কালী পূজা',
-    titleEn: 'Kali Puja',
+    title: 'দুর্গাপূজা',
+    titleEn: 'Durga Puja',
     image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
     span: 'row-span-1'
   },
   {
     id: 3,
-    title: 'লক্ষ্মী পূজা',
-    titleEn: 'Lakshmi Puja',
+    title: 'পবিত্র ঈদ',
+    titleEn: 'Holy Eid',
     image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
     span: 'row-span-1'
   },
   {
     id: 4,
-    title: 'সরস্বতী পূজা',
-    titleEn: 'Saraswati Puja',
+    title: 'হুল উৎসব',
+    titleEn: 'Hul Festival',
     image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
     span: 'row-span-2'
   },
   {
     id: 5,
-    title: 'হোলি',
-    titleEn: 'Holi',
+    title: 'কালীপূজা ও দিওয়ালি',
+    titleEn: 'Kali Puja & Diwali',
     image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
     span: 'row-span-1'
   },
   {
     id: 6,
-    title: 'দীপাবলি',
-    titleEn: 'Diwali',
+    title: 'জগদ্ধাত্রী পূজা',
+    titleEn: 'Jagaddhatri Puja',
     image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
     span: 'row-span-2'
   },
   {
     id: 7,
-    title: 'করম পূজা',
-    titleEn: 'Karam Puja',
+    title: 'বড়োদিন',
+    titleEn: 'Christmas',
     image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
     span: 'row-span-1'
   },
   {
     id: 8,
-    title: 'বুদ্ধ পূর্ণিমা',
-    titleEn: 'Buddha Purnima',
+    title: 'নববর্ষ',
+    titleEn: 'New Year',
     image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
     span: 'row-span-1'
   },
   {
     id: 9,
-    title: 'জন্মাষ্টমী',
-    titleEn: 'Janmashtami',
+    title: 'রথযাত্রা',
+    titleEn: 'Rath Yatra',
     image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
     span: 'row-span-2'
   },
   {
     id: 10,
-    title: 'রথযাত্রা',
-    titleEn: 'Rath Yatra',
+    title: 'রবীন্দ্র জয়ন্তী',
+    titleEn: 'Rabindra Jayanti',
     image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
     span: 'row-span-1'
   },
   {
     id: 11,
-    title: 'গণেশ পূজা',
-    titleEn: 'Ganesh Puja',
+    title: 'পৌষ সংক্রান্তি',
+    titleEn: 'Poush Sankranti',
     image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
     span: 'row-span-1'
   },
   {
     id: 12,
-    title: 'নবরাত্রি',
-    titleEn: 'Navratri',
+    title: 'সরস্বতী পূজা',
+    titleEn: 'Saraswati Puja',
     image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
     span: 'row-span-2'
   }
@@ -211,10 +211,34 @@ export default function EmergencyServices() {
           <div className="mt-20">
             <div className="text-center mb-12">
               <h2 className="text-4xl md:text-5xl mb-4 font-bold text-sky-600">
-                "১২ মাসে তেরো পার্বণ"
+                "১২ মাসে ১৩ পার্বণ"
               </h2>
               <p className="text-xl text-gray-600 font-medium">Bengal through the year</p>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            {/* Tab Buttons - Moved to Top */}
+            <div className="flex flex-wrap justify-center gap-3 mb-12">
+              <button
+                onClick={() => setSelectedTab('festivals')}
+                className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                  selectedTab === 'festivals'
+                    ? 'bg-gradient-to-r from-sky-500 to-sky-600 text-white shadow-lg scale-105'
+                    : 'bg-white text-gray-700 hover:bg-sky-50 border-2 border-sky-200'
+                }`}
+              >
+                Festivals
+              </button>
+              <button
+                onClick={() => setSelectedTab('stateEvents')}
+                className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                  selectedTab === 'stateEvents'
+                    ? 'bg-gradient-to-r from-sky-500 to-sky-600 text-white shadow-lg scale-105'
+                    : 'bg-white text-gray-700 hover:bg-sky-50 border-2 border-sky-200'
+                }`}
+              >
+                State Functions & Other Events
+              </button>
             </div>
 
             {/* Dynamic Content Based on Selected Tab */}
@@ -289,30 +313,6 @@ export default function EmergencyServices() {
 
               </>
             )}
-
-            {/* Tab Buttons - Moved to Bottom */}
-            <div className="flex flex-wrap justify-center gap-3 mt-12">
-              <button
-                onClick={() => setSelectedTab('festivals')}
-                className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
-                  selectedTab === 'festivals'
-                    ? 'bg-gradient-to-r from-sky-500 to-sky-600 text-white shadow-lg scale-105'
-                    : 'bg-white text-gray-700 hover:bg-sky-50 border-2 border-sky-200'
-                }`}
-              >
-                Festivals
-              </button>
-              <button
-                onClick={() => setSelectedTab('stateEvents')}
-                className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
-                  selectedTab === 'stateEvents'
-                    ? 'bg-gradient-to-r from-sky-500 to-sky-600 text-white shadow-lg scale-105'
-                    : 'bg-white text-gray-700 hover:bg-sky-50 border-2 border-sky-200'
-                }`}
-              >
-                State Functions & Other Events
-              </button>
-            </div>
           </div>
         </div>
       </section>
