@@ -7,84 +7,84 @@ const festivalsImages = [
     id: 1,
     title: 'বসন্ত উৎসব ও হোলি',
     titleEn: 'Basanta Utsab & Holi',
-    image: '/src/Public/Holi.png',
+    image: '/Apon-Bengal-1/Public/Holi.png',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'দুর্গাপূজা',
     titleEn: 'Durga Puja',
-    image: '/src/Public/durgapuja.png',
+    image: '/Apon-Bengal-1/Public/durgapuja.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'পবিত্র ঈদ',
     titleEn: 'Holy Eid',
-    image: '/src/Public/eid.jpg',
+    image: '/Apon-Bengal-1/Public/eid.jpg',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'হুল উৎসব',
     titleEn: 'Hul Festival',
-    image: '/src/Public/hul.jpg',
+    image: '/Apon-Bengal-1/Public/hul.jpg',
     span: 'row-span-2'
   },
   {
     id: 5,
     title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Kali Puja & Diwali',
-    image: '/src/Public/dwali.jpeg',
+    image: '/Apon-Bengal-1/Public/dwali.jpeg',
     span: 'row-span-1'
   },
   {
     id: 6,
     title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Jagaddhatri Puja',
-    image: '/src/Public/jagaddhartri.jpg',
+    image: '/Apon-Bengal-1/Public/jagaddhartri.jpg',
     span: 'row-span-2'
   },
   {
     id: 7,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: '/src/Public/Cristmas.jpeg',
+    image: '/Apon-Bengal-1/Public/Cristmas.jpeg',
     span: 'row-span-1'
   },
   {
     id: 8,
     title: 'নববর্ষ',
     titleEn: 'New Year',
-    image: '/src/Public/Newyear.jpeg',
+    image: '/Apon-Bengal-1/Public/Newyear.jpeg',
     span: 'row-span-1'
   },
   {
     id: 9,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
-    image: '/src/Public/rath.png',
+    image: '/Apon-Bengal-1/Public/rath.png',
     span: 'row-span-2'
   },
   {
     id: 10,
     title: 'রবীন্দ্র জয়ন্তী',
     titleEn: 'Rabindra Jayanti',
-    image: '/src/Public/rabindranath.jpeg',
+    image: '/Apon-Bengal-1/Public/rabindranath.jpeg',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'পৌষ সংক্রান্তি',
     titleEn: 'Poush Sankranti',
-    image: '/src/Public/poushparbon.jpeg',
+    image: '/Apon-Bengal-1/Public/poushparbon.jpeg',
     span: 'row-span-1'
   },
   {
     id: 12,
     title: 'সরস্বতী পূজা',
     titleEn: 'Saraswati Puja',
-    image: '/src/Public/swarasatipuja.jpeg',
+    image: '/Apon-Bengal-1/Public/swarasatipuja.jpeg',
     span: 'row-span-2'
   }
 ];
@@ -94,28 +94,28 @@ const stateEventsImages = [
     id: 1,
     title: 'জাতীয় দিবস উদযাপন',
     titleEn: 'National Day Celebration',
-    image: '/src/Public/Newyear.jpeg',
+    image: '/Apon-Bengal-1/Public/Newyear.jpeg',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'সরকারী অনুষ্ঠান',
     titleEn: 'Government Function',
-    image: '/src/Public/Cm.png',
+    image: '/Apon-Bengal-1/Public/Cm.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'রাজ্যিক পুরস্কার',
     titleEn: 'State Award',
-    image: '/src/Public/Logo.png',
+    image: '/Apon-Bengal-1/Public/Logo.png',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'সাংস্কৃতিক অনুষ্ঠান',
     titleEn: 'Cultural Event',
-    image: '/src/Public/rabindranath.jpeg',
+    image: '/Apon-Bengal-1/Public/rabindranath.jpeg',
     span: 'row-span-2'
   },
   {
@@ -157,14 +157,14 @@ const stateEventsImages = [
     id: 10,
     title: 'সাহিত্য উৎসব',
     titleEn: 'Literature Festival',
-    image: '/src/Public/rabindranath.jpeg',
+    image: '/Apon-Bengal-1/Public/rabindranath.jpeg',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'সংগীত অনুষ্ঠান',
     titleEn: 'Music Concert',
-    image: '/src/Public/swarasatipuja.jpeg',
+    image: '/Apon-Bengal-1/Public/swarasatipuja.jpeg',
     span: 'row-span-1'
   },
   {
