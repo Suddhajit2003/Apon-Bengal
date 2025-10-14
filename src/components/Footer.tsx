@@ -12,7 +12,7 @@ export default function Footer() {
               <img 
                 src={Logo} 
                 alt="আপন বাংলা Logo" 
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
               {/* <div>
                 <h3 className="text-white">আপন বাংলা</h3>
