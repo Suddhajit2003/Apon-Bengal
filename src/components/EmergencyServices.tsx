@@ -147,7 +147,7 @@ export default function EmergencyServices() {
               <h2 className="text-4xl md:text-5xl mb-4 font-bold text-sky-600">
                 "১২ মাসে ১৩ পার্বণ"
               </h2>
-              <p className="text-xl text-gray-600 font-medium">Bengal through the year</p>
+              <p className="text-xl text-gray-600 font-medium">Bengal Throughout the year</p>
               <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-sky-600 mx-auto mt-6 rounded-full"></div>
             </div>
 
