@@ -92,88 +92,88 @@ const festivalsImages = [
 const stateEventsImages = [
   {
     id: 1,
-    title: 'জাতীয় দিবস উদযাপন',
-    titleEn: 'National Day Celebration',
-    image: new URL('../Public/apan_bangla.jpeg', import.meta.url).href,
+    title: ' স্বাধীনতা দিবস',
+    titleEn: 'Independence day',
+    image: new URL('../Public/india.jpeg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 2,
-    title: 'সরকারী অনুষ্ঠান',
-    titleEn: 'Government Function',
-    image: new URL('../Public/durgapuja.png', import.meta.url).href,
+    title: 'প্রজাতন্ত্র দিবস',
+    titleEn: 'Republic day',
+    image: new URL('../Public/republic.png', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 3,
-    title: 'রাজ্যিক পুরস্কার',
-    titleEn: 'State Award',
-    image: new URL('../Public/eid.jpg', import.meta.url).href,
+    title: 'গান্ধী জয়ন্তী',
+    titleEn: 'Gandhi Jayanti:',
+    image: new URL('../Public/gandhi.png', import.meta.url).href,
     span: 'row-span-1'
   },
-  {
-    id: 4,
-    title: 'সাংস্কৃতিক অনুষ্ঠান',
-    titleEn: 'Cultural Event',
-    image: new URL('../Public/hul.jpg', import.meta.url).href,
-    span: 'row-span-2'
-  },
-  {
-    id: 5,
-    title: 'শিক্ষা মেলা',
-    titleEn: 'Education Fair',
-    image: new URL('../Public/dwali.jpeg', import.meta.url).href,
-    span: 'row-span-1'
-  },
-  {
-    id: 6,
-    title: 'স্বাস্থ্য শিবির',
-    titleEn: 'Health Camp',
-    image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
-    span: 'row-span-2'
-  },
-  {
-    id: 7,
-    title: 'কৃষি মেলা',
-    titleEn: 'Agriculture Fair',
-    image: new URL('../Public/Christmas.jpeg', import.meta.url).href,
-    span: 'row-span-1'
-  },
-  {
-    id: 8,
-    title: 'বিজ্ঞান প্রদর্শনী',
-    titleEn: 'Science Exhibition',
-    image: new URL('../Public/Newyear.jpeg', import.meta.url).href,
-    span: 'row-span-1'
-  },
-  {
-    id: 9,
-    title: 'খেলাধুলা অনুষ্ঠান',
-    titleEn: 'Sports Event',
-    image: new URL('../Public/rath.png', import.meta.url).href,
-    span: 'row-span-2'
-  },
-  {
-    id: 10,
-    title: 'সাহিত্য উৎসব',
-    titleEn: 'Literature Festival',
-    image: new URL('../Public/rabindranath.jpeg', import.meta.url).href,
-    span: 'row-span-1'
-  },
-  {
-    id: 11,
-    title: 'সংগীত অনুষ্ঠান',
-    titleEn: 'Music Concert',
-    image: new URL('../Public/poushparbon.jpeg', import.meta.url).href,
-    span: 'row-span-1'
-  },
-  {
-    id: 12,
-    title: 'বাণিজ্য মেলা',
-    titleEn: 'Trade Fair',
-    image: new URL('../Public/swarasatipuja.jpeg', import.meta.url).href,
-    span: 'row-span-2'
-  }
+  // {
+  //   id: 4,
+  //   title: 'সাংস্কৃতিক অনুষ্ঠান',
+  //   titleEn: 'Cultural Event',
+  //   image: new URL('../Public/hul.jpg', import.meta.url).href,
+  //   span: 'row-span-2'
+  // },
+  // {
+  //   id: 5,
+  //   title: 'শিক্ষা মেলা',
+  //   titleEn: 'Education Fair',
+  //   image: new URL('../Public/dwali.jpeg', import.meta.url).href,
+  //   span: 'row-span-1'
+  // },
+  // {
+  //   id: 6,
+  //   title: 'স্বাস্থ্য শিবির',
+  //   titleEn: 'Health Camp',
+  //   image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
+  //   span: 'row-span-2'
+  // },
+  // {
+  //   id: 7,
+  //   title: 'কৃষি মেলা',
+  //   titleEn: 'Agriculture Fair',
+  //   image: new URL('../Public/Christmas.jpeg', import.meta.url).href,
+  //   span: 'row-span-1'
+  // },
+  // {
+  //   id: 8,
+  //   title: 'বিজ্ঞান প্রদর্শনী',
+  //   titleEn: 'Science Exhibition',
+  //   image: new URL('../Public/Newyear.jpeg', import.meta.url).href,
+  //   span: 'row-span-1'
+  // },
+  // {
+  //   id: 9,
+  //   title: 'খেলাধুলা অনুষ্ঠান',
+  //   titleEn: 'Sports Event',
+  //   image: new URL('../Public/rath.png', import.meta.url).href,
+  //   span: 'row-span-2'
+  // },
+  // {
+  //   id: 10,
+  //   title: 'সাহিত্য উৎসব',
+  //   titleEn: 'Literature Festival',
+  //   image: new URL('../Public/rabindranath.jpeg', import.meta.url).href,
+  //   span: 'row-span-1'
+  // },
+  // {
+  //   id: 11,
+  //   title: 'সংগীত অনুষ্ঠান',
+  //   titleEn: 'Music Concert',
+  //   image: new URL('../Public/poushparbon.jpeg', import.meta.url).href,
+  //   span: 'row-span-1'
+  // },
+  // {
+  //   id: 12,
+  //   title: 'বাণিজ্য মেলা',
+  //   titleEn: 'Trade Fair',
+  //   image: new URL('../Public/swarasatipuja.jpeg', import.meta.url).href,
+  //   span: 'row-span-2'
+  // }
 ];
 
 export default function EmergencyServices() {
