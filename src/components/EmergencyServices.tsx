@@ -7,84 +7,84 @@ const festivalsImages = [
     id: 1,
     title: 'বসন্ত উৎসব ও হোলি',
     titleEn: 'Basanta Utsab & Holi',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800',
+    image: '/src/Public/Holi.png',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'দুর্গাপূজা',
     titleEn: 'Durga Puja',
-    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
+    image: '/src/Public/durgapuja.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'পবিত্র ঈদ',
     titleEn: 'Holy Eid',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: '/src/Public/eid.jpg',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'হুল উৎসব',
     titleEn: 'Hul Festival',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: '/src/Public/hul.jpg',
     span: 'row-span-2'
   },
   {
     id: 5,
     title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Kali Puja & Diwali',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: '/src/Public/dwali.jpeg',
     span: 'row-span-1'
   },
   {
     id: 6,
     title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Jagaddhatri Puja',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: '/src/Public/jagaddhartri.jpg',
     span: 'row-span-2'
   },
   {
     id: 7,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
+    image: '/src/Public/Cristmas.jpeg',
     span: 'row-span-1'
   },
   {
     id: 8,
     title: 'নববর্ষ',
     titleEn: 'New Year',
-    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
+    image: '/src/Public/Newyear.jpeg',
     span: 'row-span-1'
   },
   {
     id: 9,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: '/src/Public/rath.png',
     span: 'row-span-2'
   },
   {
     id: 10,
     title: 'রবীন্দ্র জয়ন্তী',
     titleEn: 'Rabindra Jayanti',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: '/src/Public/rabindranath.jpeg',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'পৌষ সংক্রান্তি',
     titleEn: 'Poush Sankranti',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: '/src/Public/poushparbon.jpeg',
     span: 'row-span-1'
   },
   {
     id: 12,
     title: 'সরস্বতী পূজা',
     titleEn: 'Saraswati Puja',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: '/src/Public/swarasatipuja.jpeg',
     span: 'row-span-2'
   }
 ];
@@ -94,28 +94,28 @@ const stateEventsImages = [
     id: 1,
     title: 'জাতীয় দিবস উদযাপন',
     titleEn: 'National Day Celebration',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: '/src/Public/Newyear.jpeg',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'সরকারী অনুষ্ঠান',
     titleEn: 'Government Function',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: '/src/Public/Cm.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'রাজ্যিক পুরস্কার',
     titleEn: 'State Award',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: '/src/Public/Logo.png',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'সাংস্কৃতিক অনুষ্ঠান',
     titleEn: 'Cultural Event',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: '/src/Public/rabindranath.jpeg',
     span: 'row-span-2'
   },
   {
@@ -157,14 +157,14 @@ const stateEventsImages = [
     id: 10,
     title: 'সাহিত্য উৎসব',
     titleEn: 'Literature Festival',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: '/src/Public/rabindranath.jpeg',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'সংগীত অনুষ্ঠান',
     titleEn: 'Music Concert',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
+    image: '/src/Public/swarasatipuja.jpeg',
     span: 'row-span-1'
   },
   {
