@@ -52,7 +52,63 @@ const festivalsData = [
     image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
     description: 'Fueling the local passion for the beautiful game, the DSA Football Tournament is a major highlight of our sports calendar. It provides a platform for local clubs and young athletes to display their skills and compete at a high level. The event draws large crowds, creating an electric atmosphere of excitement and unity, celebrating the love for football that runs deep in our community.',
     imagePosition: 'right'
-  }
+  },
+  {
+    id: 7,
+    title: 'নববর্ষ',
+    titleEn: 'Nababarsho',
+    image: new URL('../Public/.jpeg', import.meta.url).href,
+    description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
+    imagePosition: 'left'
+  },
+  {
+    id: 8,
+    title: '9. রথযাত্রা',
+    titleEn: 'Rath yatra',
+    image: new URL('../Public/.jpg', import.meta.url).href,
+    description: 'Fueling the local passion for the beautiful game, the DSA Football Tournament is a major highlight of our sports calendar. It provides a platform for local clubs and young athletes to display their skills and compete at a high level. The event draws large crowds, creating an electric atmosphere of excitement and unity, celebrating the love for football that runs deep in our community.',
+    imagePosition: 'right'
+  },
+  {
+    id: 9,
+    title: 'কালীপূজা ও দিওয়ালি',
+    titleEn: 'Kali pujo and diwali',
+    image: new URL('../Public/.jpeg', import.meta.url).href,
+    description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
+    imagePosition: 'left'
+  },
+  { 
+    id: 10,
+    title: 'রবীন্দ্র জয়ন্তী',
+    titleEn: 'Rabindra jayanti',
+    image: new URL('../Public/.jpg', import.meta.url).href,
+    description: 'Fueling the local passion for the beautiful game, the DSA Football Tournament is a major highlight of our sports calendar. It provides a platform for local clubs and young athletes to display their skills and compete at a high level. The event draws large crowds, creating an electric atmosphere of excitement and unity, celebrating the love for football that runs deep in our community.',
+    imagePosition: 'right'
+  },
+  {
+    id: 11,
+    title: 'পৌষ সংক্রান্তি',
+    titleEn: 'Poush sankranti',
+    image: new URL('../Public/.jpeg', import.meta.url).href,
+    description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
+    imagePosition: 'left'
+  },
+  {
+    id: 12,
+    title: 'সরস্বতী পূজা',
+    titleEn: 'Saraswati pujo',
+    image: new URL('../Public/.jpg', import.meta.url).href,
+    description: 'Fueling the local passion for the beautiful game, the DSA Football Tournament is a major highlight of our sports calendar. It provides a platform for local clubs and young athletes to display their skills and compete at a high level. The event draws large crowds, creating an electric atmosphere of excitement and unity, celebrating the love for football that runs deep in our community.',
+    imagePosition: 'right'
+  },
+  {
+    id: 11,
+    title: 'গুরু পূর্ণিমা',
+    titleEn: 'Guru purnima',
+    image: new URL('../Public/.jpeg', import.meta.url).href,
+    description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
+    imagePosition: 'left'
+  },
 ];
 
 export default function Festivals() {
