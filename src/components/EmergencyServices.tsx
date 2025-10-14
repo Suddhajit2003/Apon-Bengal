@@ -49,7 +49,7 @@ const festivalsImages = [
     id: 7,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: new URL('../Public/Christmas.jpeg', import.meta.url).href,
+    image: new URL('../Public/c.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
