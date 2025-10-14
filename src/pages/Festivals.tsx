@@ -105,7 +105,7 @@ const festivalsData = [
     id: 11,
     title: 'গুরু পূর্ণিমা',
     titleEn: 'Guru purnima',
-    image: new URL('../Public/g.jpeg', import.meta.url).href,
+    image: new URL('../Public/g.png', import.meta.url).href,
     description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
     imagePosition: 'left'
   },
