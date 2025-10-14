@@ -9,7 +9,9 @@ const festivalsData = [
     titleEn: 'Durga Puja',
     image: new URL('../Public/durgapuja.png', import.meta.url).href,
     description: 'Durga Puja is not just a festival—it\'s the soul of Dubrajpur. At DSA, it symbolizes unity, tradition, and spiritual celebration that resonates deeply with every heart in the region. For over a decade, our Puja has brought together people from all walks of life—children to seniors, artists to devotees. It\'s a shared emotion, where devotion meets creativity, and communities reconnect through culture, light, and joy. This celebration fosters inclusiveness, revives local traditions, and nurtures a sense of belonging. DSA\'s Durga Puja is where heritage lives on, and every visitor becomes part of a larger family.',
-    imagePosition: 'left'
+    descriptionBeyondBengal: 'DSA\'s Durga Puja extends its warmth beyond Bengal, connecting with devotees across India and the world. Through cultural exchange programs, live streaming of rituals, and collaborative celebrations, we bridge distances and bring the essence of Bengali tradition to diverse communities. Our Puja has welcomed guests from different states and countries, creating a melting pot of cultures united by devotion to Maa Durga. This outreach strengthens bonds, promotes cultural understanding, and showcases Bengal\'s rich heritage on a broader canvas.',
+    imagePosition: 'left',
+    hasPujoSwitch: true
   },
   {
     id: 2,
@@ -55,6 +57,7 @@ const festivalsData = [
 
 export default function Festivals() {
   const navigate = useNavigate();
+  const [pujoView, setPujoView] = React.useState('bengal'); // 'bengal' or 'beyond'
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white pt-5">
@@ -99,10 +102,38 @@ export default function Festivals() {
                   {/* Content */}
                   <div className={event.imagePosition === 'left' ? 'order-2' : 'order-1'}>
                     <div className="space-y-4">
+                      {/* Pujo Switch Button - Only for Durga Puja */}
+                      {event.hasPujoSwitch && (
+                        <div className="flex gap-2 mb-6">
+                          <button
+                            onClick={() => setPujoView('bengal')}
+                            className={`px-6 py-3 rounded-full font-semibold transition-all ${
+                              pujoView === 'bengal'
+                                ? 'bg-sky-500 text-white shadow-lg'
+                                : 'bg-white text-sky-500 border-2 border-sky-200 hover:border-sky-400'
+                            }`}
+                          >
+                            Pujo in Bengal
+                          </button>
+                          <button
+                            onClick={() => setPujoView('beyond')}
+                            className={`px-6 py-3 rounded-full font-semibold transition-all ${
+                              pujoView === 'beyond'
+                                ? 'bg-sky-500 text-white shadow-lg'
+                                : 'bg-white text-sky-500 border-2 border-sky-200 hover:border-sky-400'
+                            }`}
+                          >
+                            Pujo beyond Bengal
+                          </button>
+                        </div>
+                      )}
+                      
                       <h3 className="text-3xl font-bold text-sky-600">{event.title}</h3>
                       <h4 className="text-xl font-semibold text-gray-700">{event.titleEn}</h4>
                       <p className="text-gray-600 leading-relaxed text-lg">
-                        {event.description}
+                        {event.hasPujoSwitch && pujoView === 'beyond' 
+                          ? event.descriptionBeyondBengal 
+                          : event.description}
                       </p>
                     </div>
                   </div>

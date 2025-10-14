@@ -7,84 +7,84 @@ const festivalsImages = [
     id: 1,
     title: 'বসন্ত উৎসব ও হোলি',
     titleEn: 'Basanta Utsab & Holi',
-    image: 'https://res.cloudinary.com/dlalsmidm/image/upload/Holi.png',
+    image: new URL('../Public/apan_bangla.jpeg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'দুর্গাপূজা',
     titleEn: 'Durga Puja',
-    image: 'https://res.cloudinary.com/dlalsmidm/image/upload/durgapuja.png',
+    image: new URL('../Public/durgapuja.png', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'পবিত্র ঈদ',
     titleEn: 'Holy Eid',
-    image: 'https://res.cloudinary.com/dlalsmidm/image/upload/eid.jpg',
+    image: new URL('../Public/eid.jpg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'হুল উৎসব',
     titleEn: 'Hul Festival',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: new URL('../Public/hul.jpg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 5,
     title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Kali Puja & Diwali',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: new URL('../Public/dwali.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 6,
     title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Jagaddhatri Puja',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 7,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
+    image: new URL('../Public/Christmas.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 8,
     title: 'নববর্ষ',
     titleEn: 'New Year',
-    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
+    image: new URL('../Public/Newyear.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 9,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: new URL('../Public/rath.png', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 10,
     title: 'রবীন্দ্র জয়ন্তী',
     titleEn: 'Rabindra Jayanti',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: new URL('../Public/rabindranath.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'পৌষ সংক্রান্তি',
     titleEn: 'Poush Sankranti',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: new URL('../Public/poushparbon.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 12,
     title: 'সরস্বতী পূজা',
     titleEn: 'Saraswati Puja',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: new URL('../Public/swarasatipuja.jpeg', import.meta.url).href,
     span: 'row-span-2'
   }
 ];
@@ -94,84 +94,84 @@ const stateEventsImages = [
     id: 1,
     title: 'জাতীয় দিবস উদযাপন',
     titleEn: 'National Day Celebration',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: new URL('../Public/apan_bangla.jpeg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'সরকারী অনুষ্ঠান',
     titleEn: 'Government Function',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: new URL('../Public/durgapuja.png', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'রাজ্যিক পুরস্কার',
     titleEn: 'State Award',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: new URL('../Public/eid.jpg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'সাংস্কৃতিক অনুষ্ঠান',
     titleEn: 'Cultural Event',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: new URL('../Public/hul.jpg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 5,
     title: 'শিক্ষা মেলা',
     titleEn: 'Education Fair',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
+    image: new URL('../Public/dwali.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 6,
     title: 'স্বাস্থ্য শিবির',
     titleEn: 'Health Camp',
-    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
+    image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 7,
     title: 'কৃষি মেলা',
     titleEn: 'Agriculture Fair',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: new URL('../Public/Christmas.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 8,
     title: 'বিজ্ঞান প্রদর্শনী',
     titleEn: 'Science Exhibition',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: new URL('../Public/Newyear.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 9,
     title: 'খেলাধুলা অনুষ্ঠান',
     titleEn: 'Sports Event',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: new URL('../Public/rath.png', import.meta.url).href,
     span: 'row-span-2'
   },
   {
     id: 10,
     title: 'সাহিত্য উৎসব',
     titleEn: 'Literature Festival',
-    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
+    image: new URL('../Public/rabindranath.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'সংগীত অনুষ্ঠান',
     titleEn: 'Music Concert',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
+    image: new URL('../Public/poushparbon.jpeg', import.meta.url).href,
     span: 'row-span-1'
   },
   {
     id: 12,
     title: 'বাণিজ্য মেলা',
     titleEn: 'Trade Fair',
-    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
+    image: new URL('../Public/swarasatipuja.jpeg', import.meta.url).href,
     span: 'row-span-2'
   }
 ];
