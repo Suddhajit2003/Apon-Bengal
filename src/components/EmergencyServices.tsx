@@ -7,84 +7,84 @@ const festivalsImages = [
     id: 1,
     title: 'বসন্ত উৎসব ও হোলি',
     titleEn: 'Basanta Utsab & Holi',
-    image: '/Apon-Bengal-1/Public/Holi.png',
+    image: 'https://res.cloudinary.com/dlalsmidm/image/upload/Holi.png',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'দুর্গাপূজা',
     titleEn: 'Durga Puja',
-    image: '/Apon-Bengal-1/Public/durgapuja.png',
+    image: 'https://res.cloudinary.com/dlalsmidm/image/upload/durgapuja.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'পবিত্র ঈদ',
     titleEn: 'Holy Eid',
-    image: '/Apon-Bengal-1/Public/eid.jpg',
+    image: 'https://res.cloudinary.com/dlalsmidm/image/upload/eid.jpg',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'হুল উৎসব',
     titleEn: 'Hul Festival',
-    image: '/Apon-Bengal-1/Public/hul.jpg',
+    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
     span: 'row-span-2'
   },
   {
     id: 5,
     title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Kali Puja & Diwali',
-    image: '/Apon-Bengal-1/Public/dwali.jpeg',
+    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
     span: 'row-span-1'
   },
   {
     id: 6,
     title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Jagaddhatri Puja',
-    image: '/Apon-Bengal-1/Public/jagaddhartri.jpg',
+    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
     span: 'row-span-2'
   },
   {
     id: 7,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: '/Apon-Bengal-1/Public/Cristmas.jpeg',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
     span: 'row-span-1'
   },
   {
     id: 8,
     title: 'নববর্ষ',
     titleEn: 'New Year',
-    image: '/Apon-Bengal-1/Public/Newyear.jpeg',
+    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
     span: 'row-span-1'
   },
   {
     id: 9,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
-    image: '/Apon-Bengal-1/Public/rath.png',
+    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
     span: 'row-span-2'
   },
   {
     id: 10,
     title: 'রবীন্দ্র জয়ন্তী',
     titleEn: 'Rabindra Jayanti',
-    image: '/Apon-Bengal-1/Public/rabindranath.jpeg',
+    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'পৌষ সংক্রান্তি',
     titleEn: 'Poush Sankranti',
-    image: '/Apon-Bengal-1/Public/poushparbon.jpeg',
+    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
     span: 'row-span-1'
   },
   {
     id: 12,
     title: 'সরস্বতী পূজা',
     titleEn: 'Saraswati Puja',
-    image: '/Apon-Bengal-1/Public/swarasatipuja.jpeg',
+    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
     span: 'row-span-2'
   }
 ];
@@ -94,28 +94,28 @@ const stateEventsImages = [
     id: 1,
     title: 'জাতীয় দিবস উদযাপন',
     titleEn: 'National Day Celebration',
-    image: '/Apon-Bengal-1/Public/Newyear.jpeg',
+    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'সরকারী অনুষ্ঠান',
     titleEn: 'Government Function',
-    image: '/Apon-Bengal-1/Public/Cm.png',
+    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'রাজ্যিক পুরস্কার',
     titleEn: 'State Award',
-    image: '/Apon-Bengal-1/Public/Logo.png',
+    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'সাংস্কৃতিক অনুষ্ঠান',
     titleEn: 'Cultural Event',
-    image: '/Apon-Bengal-1/Public/rabindranath.jpeg',
+    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
     span: 'row-span-2'
   },
   {
@@ -157,14 +157,14 @@ const stateEventsImages = [
     id: 10,
     title: 'সাহিত্য উৎসব',
     titleEn: 'Literature Festival',
-    image: '/Apon-Bengal-1/Public/rabindranath.jpeg',
+    image: 'https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=800',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'সংগীত অনুষ্ঠান',
     titleEn: 'Music Concert',
-    image: '/Apon-Bengal-1/Public/swarasatipuja.jpeg',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
     span: 'row-span-1'
   },
   {

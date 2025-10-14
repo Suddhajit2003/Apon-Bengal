@@ -7,7 +7,7 @@ const festivalsData = [
     id: 1,
     title: 'দুর্গা পূজা',
     titleEn: 'Durga Puja',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800',
+    image: new URL('../Public/durgapuja.png', import.meta.url).href,
     description: 'Durga Puja is not just a festival—it\'s the soul of Dubrajpur. At DSA, it symbolizes unity, tradition, and spiritual celebration that resonates deeply with every heart in the region. For over a decade, our Puja has brought together people from all walks of life—children to seniors, artists to devotees. It\'s a shared emotion, where devotion meets creativity, and communities reconnect through culture, light, and joy. This celebration fosters inclusiveness, revives local traditions, and nurtures a sense of belonging. DSA\'s Durga Puja is where heritage lives on, and every visitor becomes part of a larger family.',
     imagePosition: 'left'
   },
@@ -15,7 +15,7 @@ const festivalsData = [
     id: 2,
     title: 'বসন্ত বৈঠক',
     titleEn: 'Basanta Baithak',
-    image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800',
+    image: new URL('../Public/Christmas.jpeg', import.meta.url).href,
     description: 'Alongside our grand Durga Puja, DSA proudly hosts "Basanta Baithak" – a vibrant celebration of spring inspired by Bengal\'s Basanta Utsab. This annual cultural gathering features soulful Rabindra Sangeet, folk and classical dance, poetry recitations, and colorful traditional attire. Set against a backdrop of music, flowers, and joy, the event brings together people of all ages in a spirit of unity and cultural pride. Basanta Baithak reflects our deep-rooted love for art, nature, and heritage – a refreshing, joyous start to the season of colors.',
     imagePosition: 'right'
   },
@@ -23,7 +23,7 @@ const festivalsData = [
     id: 3,
     title: 'ভো-কাট্টা',
     titleEn: 'Bho-Katta',
-    image: 'https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800',
+    image: new URL('../Public/eid.jpg', import.meta.url).href,
     description: 'Adding vibrant hues to the skies and hearts, DSA\'s annual kite festival "Bho-Katta" is a celebration of joy, competition, and childhood nostalgia. Held beside our grand Durga Puja celebrations, this 2024 edition saw an explosion of colorful kites, cheerful shouts, and community spirit. Participants of all ages gathered to relive the age-old tradition of kite flying and thread-spinning duels, echoing "Bho-Katta!" through the sky. It\'s more than just an event—it\'s a reminder of our roots, our joy, and our unity. Let the skies speak the language of freedom!',
     imagePosition: 'left'
   },
@@ -31,7 +31,7 @@ const festivalsData = [
     id: 4,
     title: 'স্বাধীনতা দিবস',
     titleEn: 'Independence Day',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800',
+    image: new URL('../Public/hul.jpg', import.meta.url).href,
     description: 'Every year, DSA proudly commemorates India\'s Independence Day with patriotic fervor and community spirit. The day begins with a flag-hoisting ceremony, followed by cultural programs that include patriotic songs, dances, and speeches. It\'s a day to honor our nation\'s heroes and instill a sense of pride and unity among all members of the community, especially the younger generation.',
     imagePosition: 'right'
   },
@@ -39,7 +39,7 @@ const festivalsData = [
     id: 5,
     title: 'ক্রিকেট টুর্নামেন্ট',
     titleEn: 'Cricket Tournament',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800',
+    image: new URL('../Public/dwali.jpeg', import.meta.url).href,
     description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
     imagePosition: 'left'
   },
@@ -47,7 +47,7 @@ const festivalsData = [
     id: 6,
     title: 'ফুটবল টুর্নামেন্ট',
     titleEn: 'Football Tournament',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800',
+    image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
     description: 'Fueling the local passion for the beautiful game, the DSA Football Tournament is a major highlight of our sports calendar. It provides a platform for local clubs and young athletes to display their skills and compete at a high level. The event draws large crowds, creating an electric atmosphere of excitement and unity, celebrating the love for football that runs deep in our community.',
     imagePosition: 'right'
   }
