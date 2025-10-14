@@ -57,7 +57,7 @@ const festivalsData = [
     id: 7,
     title: 'নববর্ষ',
     titleEn: 'Nababarsho',
-    image: new URL('../Public/.jpeg', import.meta.url).href,
+    image: new URL('../Public/n.png', import.meta.url).href,
     description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
     imagePosition: 'left'
   },
