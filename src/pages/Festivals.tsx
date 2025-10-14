@@ -71,7 +71,7 @@ const festivalsData = [
   },
   {
     id: 9,
-    title: 'বড়োদিন',
+    title: 'বড়োদিন',
     titleEn: 'Christmas',
     image: new URL('../Public/c.jpeg', import.meta.url).href,
     description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
@@ -102,7 +102,7 @@ const festivalsData = [
     imagePosition: 'right'
   },
   {
-    id: 11,
+    id: 13,
     title: 'গুরু পূর্ণিমা',
     titleEn: 'Guru purnima',
     image: new URL('../Public/g.png', import.meta.url).href,
@@ -113,7 +113,7 @@ const festivalsData = [
 
 export default function Festivals() {
   const navigate = useNavigate();
-  const [pujoView, setPujoView] = React.useState('bengal'); // 'bengal' or 'beyond'
+  const [pujoView, setPujoView] = React.useState('bengal');
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white pt-5">
@@ -125,6 +125,7 @@ export default function Festivals() {
         <br></br>
         <br></br>
       </div>
+      
       {/* Hero Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
@@ -139,7 +140,7 @@ export default function Festivals() {
 
           {/* Events Layout */}
           <div className="space-y-16">
-            {festivalsData.map((event, index) => (
+            {festivalsData.map((event) => (
               <div key={event.id} className="w-full">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                   {/* Image - Left position */}
@@ -158,9 +159,17 @@ export default function Festivals() {
                   {/* Content */}
                   <div className={event.imagePosition === 'left' ? 'order-2' : 'order-1'}>
                     <div className="space-y-4">
-                      {/* Pujo Switch Button - Only for Durga Puja */}
+                      <h3 className="text-3xl font-bold text-sky-600">{event.title}</h3>
+                      <h4 className="text-xl font-semibold text-gray-700">{event.titleEn}</h4>
+                      <p className="text-gray-600 leading-relaxed text-lg">
+                        {event.hasPujoSwitch && pujoView === 'beyond' 
+                          ? event.descriptionBeyondBengal 
+                          : event.description}
+                      </p>
+                      
+                      {/* Pujo Switch Button - Only for Durga Puja - Now after description */}
                       {event.hasPujoSwitch && (
-                        <div className="flex gap-2 mb-6">
+                        <div className="flex gap-2 mt-6">
                           <button
                             onClick={() => setPujoView('bengal')}
                             className={`px-6 py-3 rounded-full font-semibold transition-all ${
@@ -183,14 +192,6 @@ export default function Festivals() {
                           </button>
                         </div>
                       )}
-                      
-                      <h3 className="text-3xl font-bold text-sky-600">{event.title}</h3>
-                      <h4 className="text-xl font-semibold text-gray-700">{event.titleEn}</h4>
-                      <p className="text-gray-600 leading-relaxed text-lg">
-                        {event.hasPujoSwitch && pujoView === 'beyond' 
-                          ? event.descriptionBeyondBengal 
-                          : event.description}
-                      </p>
                     </div>
                   </div>
                   
