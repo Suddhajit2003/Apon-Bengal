@@ -21,7 +21,7 @@ const festivalsData = [
   },
   {
     id: 3,
-    title: 'ভো-কাট্টা',
+    title: 'পবিত্র ঈদ',
     titleEn: 'Bho-Katta',
     image: new URL('../Public/eid.jpg', import.meta.url).href,
     description: 'Adding vibrant hues to the skies and hearts, DSA\'s annual kite festival "Bho-Katta" is a celebration of joy, competition, and childhood nostalgia. Held beside our grand Durga Puja celebrations, this 2024 edition saw an explosion of colorful kites, cheerful shouts, and community spirit. Participants of all ages gathered to relive the age-old tradition of kite flying and thread-spinning duels, echoing "Bho-Katta!" through the sky. It\'s more than just an event—it\'s a reminder of our roots, our joy, and our unity. Let the skies speak the language of freedom!',
@@ -29,7 +29,7 @@ const festivalsData = [
   },
   {
     id: 4,
-    title: 'স্বাধীনতা দিবস',
+    title: 'হুল উৎসব',
     titleEn: 'Independence Day',
     image: new URL('../Public/hul.jpg', import.meta.url).href,
     description: 'Every year, DSA proudly commemorates India\'s Independence Day with patriotic fervor and community spirit. The day begins with a flag-hoisting ceremony, followed by cultural programs that include patriotic songs, dances, and speeches. It\'s a day to honor our nation\'s heroes and instill a sense of pride and unity among all members of the community, especially the younger generation.',
@@ -37,7 +37,7 @@ const festivalsData = [
   },
   {
     id: 5,
-    title: 'ক্রিকেট টুর্নামেন্ট',
+    title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Cricket Tournament',
     image: new URL('../Public/dwali.jpeg', import.meta.url).href,
     description: 'Our annual cricket tournament is one of the most awaited sporting events in Dubrajpur. Teams from across the region compete for the prestigious DSA trophy, showcasing exceptional talent and sportsmanship. The tournament fosters a spirit of healthy competition and brings the community together to cheer for their favorite teams, making it a thrilling spectacle for all.',
@@ -45,7 +45,7 @@ const festivalsData = [
   },
   {
     id: 6,
-    title: 'ফুটবল টুর্নামেন্ট',
+    title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Football Tournament',
     image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
     description: 'Fueling the local passion for the beautiful game, the DSA Football Tournament is a major highlight of our sports calendar. It provides a platform for local clubs and young athletes to display their skills and compete at a high level. The event draws large crowds, creating an electric atmosphere of excitement and unity, celebrating the love for football that runs deep in our community.',
