@@ -3,13 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { Phone, X } from 'lucide-react';
 
 const festivalsImages = [
-  {
-    id: 1,
-    title: 'বসন্ত উৎসব ও হোলি',
-    titleEn: 'Basanta Utsab & Holi',
-    image: new URL('../Public/apan_bangla.jpeg', import.meta.url).href,
-    span: 'row-span-2'
-  },
+  // {
+  //   id: 1,
+  //   title: 'বসন্ত উৎসব ও হোলি',
+  //   titleEn: 'Basanta Utsab & Holi',
+  //   image: new URL('../Public/apan_bangla.jpeg', import.meta.url).href,
+  //   span: 'row-span-2'
+  // },
   {
     id: 2,
     title: 'দুর্গাপূজা',
