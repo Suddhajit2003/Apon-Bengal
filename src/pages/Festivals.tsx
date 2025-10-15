@@ -40,7 +40,7 @@ const festivalsData = [
   },
   {
     id: 5,
-    title: 'কালীপূজা ও দিওয়ালি',
+    title: 'কালীপূজা ও দীপাবলি',
     titleEn: 'Kali Puja and Diwali',
     image: new URL('../Public/dwali.jpeg', import.meta.url).href,
     description: 'The twin festivals of Kali Puja and Diwali illuminate DSA with divine light and spiritual energy. Devotees gather to worship Goddess Kali with traditional rituals, while the community celebrates Diwali—the festival of lights—with diyas, rangoli, fireworks, and sweets. These celebrations symbolize the victory of light over darkness and good over evil, bringing hope, prosperity, and joy to every household in our community.',
