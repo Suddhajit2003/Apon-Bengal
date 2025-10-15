@@ -16,8 +16,8 @@ const festivalsData = [
   },
   {
     id: 2,
-    title: 'বসন্ত বৈঠক',
-    titleEn: 'Basanta Baithak',
+    title: 'বসন্ত উৎসব',
+    titleEn: 'Basanta Utsab',
     image: new URL('../Public/Holi.png', import.meta.url).href,
     description: 'Alongside our grand Durga Puja, DSA proudly hosts "Basanta Baithak" – a vibrant celebration of spring inspired by Bengal\'s Basanta Utsab. This annual cultural gathering features soulful Rabindra Sangeet, folk and classical dance, poetry recitations, and colorful traditional attire. Set against a backdrop of music, flowers, and joy, the event brings together people of all ages in a spirit of unity and cultural pride. Basanta Baithak reflects our deep-rooted love for art, nature, and heritage – a refreshing, joyous start to the season of colors.',
     imagePosition: 'right'
