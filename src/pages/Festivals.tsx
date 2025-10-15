@@ -80,8 +80,8 @@ const festivalsData = [
   },
   { 
     id: 10,
-    title: 'রবীন্দ্র জয়ন্তী',
-    titleEn: 'Rabindra Jayanti',
+    title: 'রবীন্দ্র - নজরুল জয়ন্তী',
+    titleEn: 'Rabindra - Nazrul Jayanti',
     image: new URL('../Public/rabindranath.jpeg', import.meta.url).href,
     description: 'Honoring the legacy of Rabindranath Tagore, DSA celebrates Rabindra Jayanti with cultural programs dedicated to the poet\'s timeless works. The day features performances of Rabindra Sangeet, recitations of his poetry, discussions on his philosophy, and theatrical adaptations of his plays. This celebration keeps Tagore\'s vision of humanity, art, and universal brotherhood alive in our community.',
     imagePosition: 'right'
