@@ -99,7 +99,7 @@ export default function StatsCounter() {
         <div className="container mx-auto px-4">
           {/* News Scrolling Section */}
           <div className="mb-16 w-full overflow-hidden">
-            <h3 className="text-4xl lg:text-5xl font-bold text-center mb-8" style={{ color: '#0ea5e9' }}>News</h3>
+            <h3 className="text-4xl lg:text-5xl font-bold text-center mb-8" style={{ color: '#0ea5e9' }}>Buzz in bengal</h3>
             <div className="relative w-full overflow-hidden bg-gradient-to-r from-white via-gray-50 to-white rounded-2xl shadow-lg py-8">
               <div 
                 className="flex gap-8 px-4"
