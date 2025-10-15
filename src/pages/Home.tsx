@@ -11,11 +11,11 @@ export default function Home() {
     <>
       <HeroSection />
       <QuickServices /> 
-      {/* <StatsCounter /> */}
       <AboutUs />
-      {/* <FAQ /> */}
+      {/* <FAQ />  */}
       <VideoShowcase />
       <EmergencyServices />
+      <StatsCounter />
     </>
   );
 }

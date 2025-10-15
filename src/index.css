@@ -2716,3 +2716,15 @@ html {
     opacity: 0.3;
   }
 }
+
+.perspective-1000 {
+  perspective: 1000px;
+  perspective-origin: center;
+}
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
