@@ -22,8 +22,7 @@ export default function HeroSection() {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-sky-900/80 to-sky-700/60"></div>
-
+      <div className="absolute inset-0 bg-black/30"></div>
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 
