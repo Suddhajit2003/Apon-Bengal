@@ -57,7 +57,7 @@ const festivalsData = [
   {
     id: 7,
     title: 'নববর্ষ ও রাজ্যদিবস',
-    titleEn: 'Nababarsho',
+    titleEn: 'Nababarsho o rajjo dibos',
     image: new URL('../Public/n.png', import.meta.url).href,
     description: 'Pohela Boishakh, the Bengali New Year, is celebrated at DSA with immense joy and cultural pride. The day begins with traditional rituals, followed by vibrant cultural programs featuring Bengali music, dance, and drama. Traditional sweets and festive meals are shared among community members. It\'s a day to embrace new beginnings, honor our heritage, and strengthen the bonds that unite us as Bengalis.',
     imagePosition: 'left'
@@ -104,8 +104,8 @@ const festivalsData = [
   },
   {
     id: 13,
-    title: 'গুরু পূর্ণিমা',
-    titleEn: 'Guru Purnima',
+    title: 'ভাষা দিবস',
+    titleEn: 'Bhasha dibos',
     image: new URL('../Public/g.png', import.meta.url).href,
     description: 'Guru Purnima at DSA is a day to honor teachers, mentors, and spiritual guides who illuminate our paths with knowledge and wisdom. Students express gratitude through cultural programs, speeches, and traditional ceremonies. The event reinforces the timeless guru-shishya tradition and celebrates the invaluable role of educators in shaping lives and society.',
     imagePosition: 'left'
