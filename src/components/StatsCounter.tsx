@@ -15,37 +15,37 @@ const useScrollAnimation = (threshold: number) => {
 
 const achievements = [
   {
-    src: "/Users/suddhajit21/Documents/Apon-Bengal-1/src/Public/1.jpeg",
+    src: "src/Public/i.jpeg",
     title: "নিবন্ধিত নাগরিক",
     titleEn: "Registered Citizens",
   },
   {
-    src: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+    src: "/src/Public/ii.jpeg",
     title: "সেবা প্রদান",
     titleEn: "Services Delivered",
   },
   {
-    src: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+    src: "/src/Public/iii.jpeg",
     title: "ডিজিটাল সেবা",
     titleEn: "Digital Services",
   },
   {
-    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    src: "/src/Public/iv.jpeg",
     title: "সন্তুষ্টির হার",
     titleEn: "Satisfaction Rate",
   },
   {
-    src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+    src: "/src/Public/v.jpeg",
     title: "পশ্চিমবঙ্গ সংস্কৃতি",
     titleEn: "West Bengal Culture",
   },
   {
-    src: "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=80",
+    src: "/src/Public/vi.jpeg",
     title: "ঐতিহ্যবাহী স্থান",
     titleEn: "Heritage Site",
   },
   {
-    src: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&q=80",
+    src: "/src/Public/vii.jpeg",
     title: "ঐতিহ্যবাহী শিল্প",
     titleEn: "Traditional Art",
   },
