@@ -15,7 +15,7 @@ const useScrollAnimation = (threshold: number) => {
 
 const achievements = [
   {
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+    src: "/Users/suddhajit21/Documents/Apon-Bengal-1/src/Public/1.jpeg",
     title: "নিবন্ধিত নাগরিক",
     titleEn: "Registered Citizens",
   },
@@ -115,7 +115,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="https://images.unsplash.com/photo-1569971977492-344a4b1c709b?w=400&q=80"
+                            src="/src/Public/5.jpeg"
                             alt="Durga Puja"
                             className="w-full h-full object-cover"
                           />
@@ -124,8 +124,8 @@ export default function StatsCounter() {
                           Festival
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">Durga Puja Celebrations</h4>
-                          <p className="text-sm text-gray-600 leading-relaxed">Watch the vibrant festivities of the biggest festival in Bengal.</p>
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee hikes Durga Puja grant to Rs 1.10 lakh, waives tax & govt fees</h4>
+                          {/* <p className="text-sm text-gray-600 leading-relaxed">Watch the vibrant festivities of the biggest festival in Bengal.</p> */}
                         </div>
                       </div>
                     </div>
@@ -134,7 +134,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="https://images.unsplash.com/photo-1563370644857-2782e31e1926?w=400&q=80"
+                            src="/src/Public/1.jpeg"
                             alt="Tea Gardens"
                             className="w-full h-full object-cover"
                           />
@@ -143,8 +143,9 @@ export default function StatsCounter() {
                           Tourism
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">Darjeeling Tea Gardens</h4>
-                          <p className="text-sm text-gray-600 leading-relaxed">A scenic journey through the lush green landscapes.</p>
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">1. Country’s first & only hospital with rooftop helipad launched in Kolkata
+                          </h4>
+                          {/* <p className="text-sm text-gray-600 leading-relaxed">A scenic journey through the lush green landscapes.</p> */}
                         </div>
                       </div>
                     </div>
@@ -153,7 +154,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=400&q=80"
+                            src="/src/Public/2.jpeg"
                             alt="Cultural Night"
                             className="w-full h-full object-cover"
                           />
@@ -162,8 +163,9 @@ export default function StatsCounter() {
                           Culture
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">Cultural Night Highlights</h4>
-                          <p className="text-sm text-gray-600 leading-relaxed">Experience the rich traditions of Bengali performing arts.</p>
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">2. CM Mamata Banerjee Announces Compensation & Jobs for Landslide Victims’ Families in Darjeeling
+                          </h4>
+                          {/* <p className="text-sm text-gray-600 leading-relaxed">Experience the rich traditions of Bengali performing arts.</p> */}
                         </div>
                       </div>
                     </div>
@@ -172,7 +174,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="https://images.unsplash.com/photo-1578926314433-e2789279f4aa?w=400&q=80"
+                            src="/src/Public/3.jpeg"
                             alt="Artist"
                             className="w-full h-full object-cover"
                           />
@@ -181,8 +183,9 @@ export default function StatsCounter() {
                           Art
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">Artist Spotlight</h4>
-                          <p className="text-sm text-gray-600 leading-relaxed">A conversation with a master craft artist.</p>
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">4. West Bengal's Digha set to hold first Rath Yatra from new Jagannath temple
+                          </h4>
+                          {/* <p className="text-sm text-gray-600 leading-relaxed">A conversation with a master craft artist.</p> */}
                         </div>
                       </div>
                     </div>
@@ -191,7 +194,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80"
+                            src="/src/Public/4.jpeg"
                             alt="Festival"
                             className="w-full h-full object-cover"
                           />
