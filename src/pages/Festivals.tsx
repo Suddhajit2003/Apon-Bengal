@@ -104,8 +104,8 @@ const festivalsData = [
   },
   {
     id: 13,
-    title: 'ভাষা দিবস',
-    titleEn: 'Bhasha dibos',
+    title: 'গুরু পূর্ণিমা',
+    titleEn: 'Guru purnima',
     image: new URL('../Public/g.png', import.meta.url).href,
     description: 'Guru Purnima at DSA is a day to honor teachers, mentors, and spiritual guides who illuminate our paths with knowledge and wisdom. Students express gratitude through cultural programs, speeches, and traditional ceremonies. The event reinforces the timeless guru-shishya tradition and celebrates the invaluable role of educators in shaping lives and society.',
     imagePosition: 'left'
