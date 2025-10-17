@@ -122,9 +122,6 @@ export default function StatsCounter() {
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="absolute top-2 right-2 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
-                          Festival
-                        </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
                           <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee hikes Durga Puja grant to Rs 1.10 lakh, waives tax & govt fees</h4>
                         </div>
@@ -139,9 +136,6 @@ export default function StatsCounter() {
                             alt="Tea Gardens"
                             className="w-full h-full object-cover"
                           />
-                        </div>
-                        <div className="absolute top-2 right-2 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
-                          Tourism
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
                           <h4 className="font-bold text-lg text-gray-900 mb-2">Country's first & only hospital with rooftop helipad launched in Kolkata
@@ -159,9 +153,6 @@ export default function StatsCounter() {
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="absolute top-2 right-2 bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
-                          Culture
-                        </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
                           <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee Announces Compensation & Jobs for Landslide Victims' Families in Darjeeling
                           </h4>
@@ -178,9 +169,6 @@ export default function StatsCounter() {
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="absolute top-2 right-2 bg-orange-600 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
-                          Art
-                        </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
                           <h4 className="font-bold text-lg text-gray-900 mb-2">West Bengal's Digha set to hold first Rath Yatra from new Jagannath temple
                           </h4>
@@ -196,9 +184,6 @@ export default function StatsCounter() {
                             alt="Festival"
                             className="w-full h-full object-cover"
                           />
-                        </div>
-                        <div className="absolute top-2 right-2 bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold z-10">
-                          Heritage
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
                           <h4 className="font-bold text-lg text-gray-900 mb-2">Traditional Festival</h4>
