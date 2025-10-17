@@ -28,6 +28,14 @@ const stateEventsData = [
     description: 'Gandhi Jayanti is observed at DSA with reverence and reflection, commemorating the birth anniversary of Mahatma Gandhi, the Father of the Nation. The day begins with prayer meetings and tributes to Gandhiji\'s philosophy of non-violence, truth, and social justice. Community members participate in cleanliness drives, social service activities, and discussions on Gandhian principles. Cultural programs feature patriotic songs, speeches on Gandhi\'s teachings, and skits depicting significant events from his life. The celebration emphasizes the relevance of Gandhi\'s ideals in contemporary society and encourages community members to practice peace, compassion, and self-reliance in their daily lives.',
     imagePosition: 'left'
   },
+  {
+    id: 4,
+    title: 'ভাষা দিবস',
+    titleEn: 'Bhasha dibos',
+    image: '/vasa.jpeg',
+    description: 'Republic Day at DSA is celebrated with great enthusiasm to honor the adoption of the Indian Constitution. The day features a flag-hoisting ceremony, parade demonstrations, and cultural programs that showcase India\'s diversity and democratic values. Students and community members participate in patriotic performances, including songs, dances, and speeches that highlight the importance of constitutional rights and civic responsibilities. The event serves as a reminder of our democratic heritage and inspires citizens to uphold the principles of justice, liberty, equality, and fraternity enshrined in our Constitution.',
+    imagePosition: 'right'
+  },
 ];
 
 
