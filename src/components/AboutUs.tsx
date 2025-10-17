@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Target, Eye, Award, Users, Shield, Zap } from 'lucide-react';
-import CmImage from '/src/Public/Cm.png';
+import CmImage from '/Cm.png';
 
 gsap.registerPlugin(ScrollTrigger);
 

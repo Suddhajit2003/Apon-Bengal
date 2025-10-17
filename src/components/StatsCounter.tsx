@@ -2,18 +2,6 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Import images from Public folder at root level
-import img1 from '../Public/1.jpeg';
-import img2 from '../Public/2.jpeg';
-import img3 from '../Public/3.jpeg';
-import img4 from '../Public/4.jpeg';
-import img5 from '../Public/5.jpeg';
-import imgI from '../Public/i.jpeg';
-import imgII from '../Public/ii.jpeg';
-import imgIII from '../Public/iii.jpeg';
-import imgIV from '../Public/iv.jpeg';
-import imgV from '../Public/v.jpeg';
-import imgVI from '../Public/vi.jpeg';
-import imgVII from '../Public/vii.jpeg';
 
 // Mock useScrollAnimation hook for demo
 const useScrollAnimation = (threshold: number) => {
@@ -29,37 +17,37 @@ const useScrollAnimation = (threshold: number) => {
 
 const achievements = [
   {
-    src: imgI,
+    src: "/i.jpeg",
     title: "নিবন্ধিত নাগরিক",
     titleEn: "Registered Citizens",
   },
   {
-    src: imgII,
+    src: "/ii.jpeg",
     title: "সেবা প্রদান",
     titleEn: "Services Delivered",
   },
   {
-    src: imgIII,
+    src: "/iii.jpeg",
     title: "ডিজিটাল সেবা",
     titleEn: "Digital Services",
   },
   {
-    src: imgIV,
+    src: "/iv.jpeg",
     title: "সন্তুষ্টির হার",
     titleEn: "Satisfaction Rate",
   },
   {
-    src: imgV,
+    src: "/v.jpeg",
     title: "পশ্চিমবঙ্গ সংস্কৃতি",
     titleEn: "West Bengal Culture",
   },
   {
-    src: imgVI,
+    src: "/vi.jpeg",
     title: "ঐতিহ্যবাহী স্থান",
     titleEn: "Heritage Site",
   },
   {
-    src: imgVII,
+    src: "/vii.jpeg",
     title: "ঐতিহ্যবাহী শিল্প",
     titleEn: "Traditional Art",
   },
@@ -129,7 +117,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src={img5}
+                            src="/5.jpeg"
                             alt="Durga Puja"
                             className="w-full h-full object-cover"
                           />
@@ -147,7 +135,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src={img1}
+                            src="/1.jpeg"
                             alt="Tea Gardens"
                             className="w-full h-full object-cover"
                           />
@@ -166,7 +154,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src={img2}
+                            src="/2.jpeg"
                             alt="Cultural Night"
                             className="w-full h-full object-cover"
                           />
@@ -185,7 +173,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src={img3}
+                            src="/3.jpeg"
                             alt="Artist"
                             className="w-full h-full object-cover"
                           />
@@ -204,7 +192,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src={img4}
+                            src="/4.jpeg"
                             alt="Festival"
                             className="w-full h-full object-cover"
                           />

@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  publicDir: 'Public', // Tell Vite to use 'Public' folder instead of default 'public'
+  publicDir: 'public', // Tell Vite to use 'public' folder for static assets
   server: {
     port: 3000,
     open: true,

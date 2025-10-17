@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import AponBanglaImage from '/src/Public/apan_bangla.jpeg';
-import BlueCheckmark from '/src/Public/blue theek.png';
+import AponBanglaImage from '/apan_bangla.jpeg';
+import BlueCheckmark from '/blue theek.png';
 
 gsap.registerPlugin(ScrollTrigger);
 

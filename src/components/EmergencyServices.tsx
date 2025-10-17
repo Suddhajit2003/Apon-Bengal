@@ -7,77 +7,77 @@ const festivalsImages = [
     id: 2,
     title: 'দুর্গাপূজা',
     titleEn: 'Durga Puja',
-    image: new URL('../Public/durgapuja.png', import.meta.url).href,
+    image: '/durgapuja.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'পবিত্র ঈদ',
     titleEn: 'Holy Eid',
-    image: new URL('../Public/eid.jpg', import.meta.url).href,
+    image: '/eid.jpg',
     span: 'row-span-1'
   },
   {
     id: 4,
     title: 'হুল উৎসব',
     titleEn: 'Hul Festival',
-    image: new URL('../Public/hul.jpg', import.meta.url).href,
+    image: '/hul.jpg',
     span: 'row-span-2'
   },
   {
     id: 5,
     title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Kali Puja & Diwali',
-    image: new URL('../Public/dwali.jpeg', import.meta.url).href,
+    image: '/dwali.jpeg',
     span: 'row-span-1'
   },
   {
     id: 6,
     title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Jagaddhatri Puja',
-    image: new URL('../Public/jagaddhartri.jpg', import.meta.url).href,
+    image: '/jagaddhartri.jpg',
     span: 'row-span-2'
   },
   {
     id: 7,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: new URL('../Public/c.jpeg', import.meta.url).href,
+    image: '/c.jpeg',
     span: 'row-span-1'
   },
   {
     id: 8,
     title: 'নববর্ষ',
     titleEn: 'New Year',
-    image: new URL('../Public/Newyear.jpeg', import.meta.url).href,
+    image: '/Newyear.jpeg',
     span: 'row-span-1'
   },
   {
     id: 9,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
-    image: new URL('../Public/rath.png', import.meta.url).href,
+    image: '/rath.png',
     span: 'row-span-2'
   },
   {
     id: 10,
     title: 'রবীন্দ্র জয়ন্তী',
     titleEn: 'Rabindra Jayanti',
-    image: new URL('../Public/rabindranath.jpeg', import.meta.url).href,
+    image: '/rabindranath.jpeg',
     span: 'row-span-1'
   },
   {
     id: 11,
     title: 'পৌষ সংক্রান্তি',
     titleEn: 'Poush Sankranti',
-    image: new URL('../Public/poushparbon.jpeg', import.meta.url).href,
+    image: '/poushparbon.jpeg',
     span: 'row-span-1'
   },
   {
     id: 12,
     title: 'সরস্বতী পূজা',
     titleEn: 'Saraswati Puja',
-    image: new URL('../Public/swarasatipuja.jpeg', import.meta.url).href,
+    image: '/swarasatipuja.jpeg',
     span: 'row-span-2'
   }
 ];
@@ -87,21 +87,21 @@ const stateEventsImages = [
     id: 1,
     title: ' স্বাধীনতা দিবস',
     titleEn: 'Independence day',
-    image: new URL('../Public/india.jpeg', import.meta.url).href,
+    image: '/india.jpeg',
     span: 'row-span-2'
   },
   {
     id: 2,
     title: 'প্রজাতন্ত্র দিবস',
     titleEn: 'Republic day',
-    image: new URL('../Public/republic.png', import.meta.url).href,
+    image: '/republic.png',
     span: 'row-span-1'
   },
   {
     id: 3,
     title: 'গান্ধী জয়ন্তী',
     titleEn: 'Gandhi Jayanti',
-    image: new URL('../Public/gandhi.png', import.meta.url).href,
+    image: '/gandhi.png',
     span: 'row-span-1'
   }
 ];

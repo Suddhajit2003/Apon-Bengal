@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Globe, Phone, User, Bell } from 'lucide-react';
-import HeaderLogo from '/src/Public/Header_Logo.png';
+import HeaderLogo from '/Header_Logo.png';
 
 export default function Header() {
   const [language, setLanguage] = useState('en');
