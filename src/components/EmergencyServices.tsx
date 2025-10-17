@@ -103,6 +103,13 @@ const stateEventsImages = [
     titleEn: 'Gandhi Jayanti',
     image: '/gandhi.png',
     span: 'row-span-1'
+  },
+  {
+    id: 4,
+    title: 'ভাষা দিবস',
+    titleEn: 'Bhasha dibos',
+    image: '/vasa.jpeg',
+    span: 'row-span-1'
   }
 ];
 
