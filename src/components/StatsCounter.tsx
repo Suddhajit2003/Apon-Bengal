@@ -1,6 +1,20 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+// Import images from Public folder at root level
+import img1 from '../Public/1.jpeg';
+import img2 from '../Public/2.jpeg';
+import img3 from '../Public/3.jpeg';
+import img4 from '../Public/4.jpeg';
+import img5 from '../Public/5.jpeg';
+import imgI from '../Public/i.jpeg';
+import imgII from '../Public/ii.jpeg';
+import imgIII from '../Public/iii.jpeg';
+import imgIV from '../Public/iv.jpeg';
+import imgV from '../Public/v.jpeg';
+import imgVI from '../Public/vi.jpeg';
+import imgVII from '../Public/vii.jpeg';
+
 // Mock useScrollAnimation hook for demo
 const useScrollAnimation = (threshold: number) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,37 +29,37 @@ const useScrollAnimation = (threshold: number) => {
 
 const achievements = [
   {
-    src: "src/Public/i.jpeg",
+    src: imgI,
     title: "নিবন্ধিত নাগরিক",
     titleEn: "Registered Citizens",
   },
   {
-    src: "/src/Public/ii.jpeg",
+    src: imgII,
     title: "সেবা প্রদান",
     titleEn: "Services Delivered",
   },
   {
-    src: "/src/Public/iii.jpeg",
+    src: imgIII,
     title: "ডিজিটাল সেবা",
     titleEn: "Digital Services",
   },
   {
-    src: "/src/Public/iv.jpeg",
+    src: imgIV,
     title: "সন্তুষ্টির হার",
     titleEn: "Satisfaction Rate",
   },
   {
-    src: "/src/Public/v.jpeg",
+    src: imgV,
     title: "পশ্চিমবঙ্গ সংস্কৃতি",
     titleEn: "West Bengal Culture",
   },
   {
-    src: "/src/Public/vi.jpeg",
+    src: imgVI,
     title: "ঐতিহ্যবাহী স্থান",
     titleEn: "Heritage Site",
   },
   {
-    src: "/src/Public/vii.jpeg",
+    src: imgVII,
     title: "ঐতিহ্যবাহী শিল্প",
     titleEn: "Traditional Art",
   },
@@ -115,7 +129,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="/src/Public/5.jpeg"
+                            src={img5}
                             alt="Durga Puja"
                             className="w-full h-full object-cover"
                           />
@@ -125,7 +139,6 @@ export default function StatsCounter() {
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
                           <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee hikes Durga Puja grant to Rs 1.10 lakh, waives tax & govt fees</h4>
-                          {/* <p className="text-sm text-gray-600 leading-relaxed">Watch the vibrant festivities of the biggest festival in Bengal.</p> */}
                         </div>
                       </div>
                     </div>
@@ -134,7 +147,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="/src/Public/1.jpeg"
+                            src={img1}
                             alt="Tea Gardens"
                             className="w-full h-full object-cover"
                           />
@@ -143,9 +156,8 @@ export default function StatsCounter() {
                           Tourism
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">1. Country’s first & only hospital with rooftop helipad launched in Kolkata
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">Country's first & only hospital with rooftop helipad launched in Kolkata
                           </h4>
-                          {/* <p className="text-sm text-gray-600 leading-relaxed">A scenic journey through the lush green landscapes.</p> */}
                         </div>
                       </div>
                     </div>
@@ -154,7 +166,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="/src/Public/2.jpeg"
+                            src={img2}
                             alt="Cultural Night"
                             className="w-full h-full object-cover"
                           />
@@ -163,9 +175,8 @@ export default function StatsCounter() {
                           Culture
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">2. CM Mamata Banerjee Announces Compensation & Jobs for Landslide Victims’ Families in Darjeeling
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee Announces Compensation & Jobs for Landslide Victims' Families in Darjeeling
                           </h4>
-                          {/* <p className="text-sm text-gray-600 leading-relaxed">Experience the rich traditions of Bengali performing arts.</p> */}
                         </div>
                       </div>
                     </div>
@@ -174,7 +185,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="/src/Public/3.jpeg"
+                            src={img3}
                             alt="Artist"
                             className="w-full h-full object-cover"
                           />
@@ -183,9 +194,8 @@ export default function StatsCounter() {
                           Art
                         </div>
                         <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">4. West Bengal's Digha set to hold first Rath Yatra from new Jagannath temple
+                          <h4 className="font-bold text-lg text-gray-900 mb-2">West Bengal's Digha set to hold first Rath Yatra from new Jagannath temple
                           </h4>
-                          {/* <p className="text-sm text-gray-600 leading-relaxed">A conversation with a master craft artist.</p> */}
                         </div>
                       </div>
                     </div>
@@ -194,7 +204,7 @@ export default function StatsCounter() {
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
                         <div className="relative h-32 overflow-hidden">
                           <img
-                            src="/src/Public/4.jpeg"
+                            src={img4}
                             alt="Festival"
                             className="w-full h-full object-cover"
                           />
@@ -223,9 +233,6 @@ export default function StatsCounter() {
             >
               Gallery
             </h2>
-            {/* <p className="text-2xl lg:text-3xl font-semibold" style={{ color: '#64748b' }}>
-              Bengal throughout the year
-            </p> */}
           </div>
 
           <div className="max-w-6xl mx-auto">
