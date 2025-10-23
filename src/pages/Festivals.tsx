@@ -16,18 +16,18 @@ const festivalsData = [
   },
   {
     id: 2,
-    title: 'বসন্ত উৎসব',
-    titleEn: 'Basanta Utsab',
-    image: '/Holi.png',
-    description: 'Alongside our grand Durga Puja, DSA proudly hosts "Basanta Baithak" – a vibrant celebration of spring inspired by Bengal\'s Basanta Utsab. This annual cultural gathering features soulful Rabindra Sangeet, folk and classical dance, poetry recitations, and colorful traditional attire. Set against a backdrop of music, flowers, and joy, the event brings together people of all ages in a spirit of unity and cultural pride. Basanta Baithak reflects our deep-rooted love for art, nature, and heritage – a refreshing, joyous start to the season of colors.',
+    title: 'নববর্ষ ও রাজ্যদিবস',
+    titleEn: 'Nababarsho o rajjo dibos',
+    image: '/n.png',
+    description: 'Pohela Boishakh, the Bengali New Year, is celebrated at DSA with immense joy and cultural pride. The day begins with traditional rituals, followed by vibrant cultural programs featuring Bengali music, dance, and drama. Traditional sweets and festive meals are shared among community members. It\'s a day to embrace new beginnings, honor our heritage, and strengthen the bonds that unite us as Bengalis.',
     imagePosition: 'right'
   },
   {
     id: 3,
-    title: 'পবিত্র ঈদ',
-    titleEn: 'Eid',
-    image: '/eid.jpg',
-    description: 'DSA celebrates Eid with the entire community, embracing the spirit of brotherhood, compassion, and gratitude. The day brings together people of all faiths to share in the joy of this sacred festival. Special prayers, cultural programs, and community feasts mark the occasion, reinforcing the values of unity, charity, and peaceful coexistence that lie at the heart of our diverse community.',
+    title: 'রবীন্দ্র - নজরুল জয়ন্তী',
+    titleEn: 'Rabindra - Nazrul Jayanti',
+    image: '/rabindranath.jpeg',
+    description: 'Honoring the legacy of Rabindranath Tagore, DSA celebrates Rabindra Jayanti with cultural programs dedicated to the poet\'s timeless works. The day features performances of Rabindra Sangeet, recitations of his poetry, discussions on his philosophy, and theatrical adaptations of his plays. This celebration keeps Tagore\'s vision of humanity, art, and universal brotherhood alive in our community.',
     imagePosition: 'left'
   },
   {
@@ -40,50 +40,50 @@ const festivalsData = [
   },
   {
     id: 5,
-    title: 'কালীপূজা ও দীপাবলি',
-    titleEn: 'Kali Puja and Diwali',
-    image: '/dwali.jpeg',
-    description: 'The twin festivals of Kali Puja and Diwali illuminate DSA with divine light and spiritual energy. Devotees gather to worship Goddess Kali with traditional rituals, while the community celebrates Diwali—the festival of lights—with diyas, rangoli, fireworks, and sweets. These celebrations symbolize the victory of light over darkness and good over evil, bringing hope, prosperity, and joy to every household in our community.',
-    imagePosition: 'left'
-  },
-  {
-    id: 6,
-    title: 'জগদ্ধাত্রী পূজা',
-    titleEn: 'Jagadhatri Puja',
-    image: '/jagaddhartri.jpg',
-    description: 'Following the grandeur of Durga Puja, DSA celebrates Jagadhatri Puja with equal devotion and cultural enthusiasm. This festival honors Goddess Jagadhatri, the protector of the world, through elaborate rituals, artistic pandals, and cultural programs. The celebration maintains the festive spirit alive in Dubrajpur, showcasing our community\'s deep-rooted connection to Bengali traditions and goddess worship.',
-    imagePosition: 'right'
-  },
-  {
-    id: 7,
-    title: 'নববর্ষ ও রাজ্যদিবস',
-    titleEn: 'Nababarsho o rajjo dibos',
-    image: '/n.png',
-    description: 'Pohela Boishakh, the Bengali New Year, is celebrated at DSA with immense joy and cultural pride. The day begins with traditional rituals, followed by vibrant cultural programs featuring Bengali music, dance, and drama. Traditional sweets and festive meals are shared among community members. It\'s a day to embrace new beginnings, honor our heritage, and strengthen the bonds that unite us as Bengalis.',
-    imagePosition: 'left'
-  },
-  {
-    id: 8,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
     image: '/rath.png',
     description: 'DSA observes the sacred Rath Yatra, commemorating Lord Jagannath\'s journey, with devotional fervor and community participation. The festival features processions, devotional songs, and traditional rituals that bring together devotees in a spirit of faith and unity. This ancient tradition connects our community to centuries of spiritual heritage and reinforces values of devotion and collective celebration.',
+    imagePosition: 'left'
+  },
+  {
+    id: 6,
+    title: 'গুরু পূর্ণিমা',
+    titleEn: 'Guru purnima',
+    image: '/g.png',
+    description: 'Guru Purnima at DSA is a day to honor teachers, mentors, and spiritual guides who illuminate our paths with knowledge and wisdom. Students express gratitude through cultural programs, speeches, and traditional ceremonies. The event reinforces the timeless guru-shishya tradition and celebrates the invaluable role of educators in shaping lives and society.',
+    imagePosition: 'right'
+  },
+  {
+    id: 7,
+    title: 'পবিত্র ঈদ',
+    titleEn: 'Eid',
+    image: '/eid.jpg',
+    description: 'DSA celebrates Eid with the entire community, embracing the spirit of brotherhood, compassion, and gratitude. The day brings together people of all faiths to share in the joy of this sacred festival. Special prayers, cultural programs, and community feasts mark the occasion, reinforcing the values of unity, charity, and peaceful coexistence that lie at the heart of our diverse community.',
+    imagePosition: 'left'
+  },
+  {
+    id: 8,
+    title: 'কালীপূজা ও দীপাবলি',
+    titleEn: 'Kali Puja and Diwali',
+    image: '/dwali.jpeg',
+    description: 'The twin festivals of Kali Puja and Diwali illuminate DSA with divine light and spiritual energy. Devotees gather to worship Goddess Kali with traditional rituals, while the community celebrates Diwali—the festival of lights—with diyas, rangoli, fireworks, and sweets. These celebrations symbolize the victory of light over darkness and good over evil, bringing hope, prosperity, and joy to every household in our community.',
     imagePosition: 'right'
   },
   {
     id: 9,
-    title: 'বড়োদিন',
-    titleEn: 'Christmas',
-    image: '/c.jpeg',
-    description: 'Christmas at DSA is a celebration of love, peace, and togetherness that transcends religious boundaries. The community comes together to decorate, sing carols, exchange gifts, and share festive meals. Special programs for children, cultural performances, and acts of charity mark this joyous occasion, reflecting the universal message of compassion and goodwill that Christmas represents.',
+    title: 'জগদ্ধাত্রী পূজা',
+    titleEn: 'Jagadhatri Puja',
+    image: '/jagaddhartri.jpg',
+    description: 'Following the grandeur of Durga Puja, DSA celebrates Jagadhatri Puja with equal devotion and cultural enthusiasm. This festival honors Goddess Jagadhatri, the protector of the world, through elaborate rituals, artistic pandals, and cultural programs. The celebration maintains the festive spirit alive in Dubrajpur, showcasing our community\'s deep-rooted connection to Bengali traditions and goddess worship.',
     imagePosition: 'left'
   },
   {
     id: 10,
-    title: 'রবীন্দ্র - নজরুল জয়ন্তী',
-    titleEn: 'Rabindra - Nazrul Jayanti',
-    image: '/rabindranath.jpeg',
-    description: 'Honoring the legacy of Rabindranath Tagore, DSA celebrates Rabindra Jayanti with cultural programs dedicated to the poet\'s timeless works. The day features performances of Rabindra Sangeet, recitations of his poetry, discussions on his philosophy, and theatrical adaptations of his plays. This celebration keeps Tagore\'s vision of humanity, art, and universal brotherhood alive in our community.',
+    title: 'বড়োদিন',
+    titleEn: 'Christmas',
+    image: '/c.jpeg',
+    description: 'Christmas at DSA is a celebration of love, peace, and togetherness that transcends religious boundaries. The community comes together to decorate, sing carols, exchange gifts, and share festive meals. Special programs for children, cultural performances, and acts of charity mark this joyous occasion, reflecting the universal message of compassion and goodwill that Christmas represents.',
     imagePosition: 'right'
   },
   {
@@ -104,10 +104,10 @@ const festivalsData = [
   },
   {
     id: 13,
-    title: 'গুরু পূর্ণিমা',
-    titleEn: 'Guru purnima',
-    image: '/g.png',
-    description: 'Guru Purnima at DSA is a day to honor teachers, mentors, and spiritual guides who illuminate our paths with knowledge and wisdom. Students express gratitude through cultural programs, speeches, and traditional ceremonies. The event reinforces the timeless guru-shishya tradition and celebrates the invaluable role of educators in shaping lives and society.',
+    title: 'বসন্ত উৎসব',
+    titleEn: 'Basanta Utsab',
+    image: '/Holi.png',
+    description: 'Alongside our grand Durga Puja, DSA proudly hosts "Basanta Baithak" – a vibrant celebration of spring inspired by Bengal\'s Basanta Utsab. This annual cultural gathering features soulful Rabindra Sangeet, folk and classical dance, poetry recitations, and colorful traditional attire. Set against a backdrop of music, flowers, and joy, the event brings together people of all ages in a spirit of unity and cultural pride. Basanta Baithak reflects our deep-rooted love for art, nature, and heritage – a refreshing, joyous start to the season of colors.',
     imagePosition: 'left'
   },
 ];
