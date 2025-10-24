@@ -4,80 +4,94 @@ import { Phone, X } from 'lucide-react';
 
 const festivalsImages = [
   {
-    id: 2,
+    id: 1,
     title: 'দুর্গাপূজা',
     titleEn: 'Durga Puja',
     image: '/durgapuja.png',
     span: 'row-span-1'
   },
   {
-    id: 3,
+    id: 2,
     title: 'পবিত্র ঈদ',
     titleEn: 'Holy Eid',
     image: '/eid.jpg',
     span: 'row-span-1'
   },
   {
-    id: 4,
+    id: 3,
     title: 'হুল উৎসব',
     titleEn: 'Hul Festival',
     image: '/hul.jpg',
     span: 'row-span-2'
   },
   {
-    id: 5,
+    id: 4,
     title: 'কালীপূজা ও দিওয়ালি',
     titleEn: 'Kali Puja & Diwali',
     image: '/dwali.jpeg',
     span: 'row-span-1'
   },
   {
-    id: 6,
+    id: 5,
     title: 'জগদ্ধাত্রী পূজা',
     titleEn: 'Jagaddhatri Puja',
     image: '/jagaddhartri.jpg',
     span: 'row-span-2'
   },
   {
-    id: 7,
+    id: 6,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
     image: '/c.jpeg',
     span: 'row-span-1'
   },
   {
-    id: 8,
+    id: 7,
     title: 'নববর্ষ',
     titleEn: 'New Year',
     image: '/Newyear.jpeg',
     span: 'row-span-1'
   },
   {
-    id: 9,
+    id: 8,
     title: 'রথযাত্রা',
     titleEn: 'Rath Yatra',
     image: '/rath.png',
     span: 'row-span-2'
   },
   {
-    id: 10,
+    id: 9,
     title: 'রবীন্দ্র জয়ন্তী',
     titleEn: 'Rabindra Jayanti',
     image: '/rabindranath.jpeg',
     span: 'row-span-1'
   },
   {
-    id: 11,
+    id: 10,
     title: 'পৌষ সংক্রান্তি',
     titleEn: 'Poush Sankranti',
     image: '/poushparbon.jpeg',
     span: 'row-span-1'
   },
   {
-    id: 12,
+    id: 11,
     title: 'সরস্বতী পূজা',
     titleEn: 'Saraswati Puja',
     image: '/swarasatipuja.jpeg',
+    span: 'row-span-2'
+  },
+  {
+    id: 12,
+    title: 'গুরু পূর্ণিমা',
+    titleEn: 'Guru purnima',
+    image: '/g.png',
+    span: 'row-span-1'
+  },
+  {
+    id: 13,
+    title: 'বসন্ত উৎসব',
+    titleEn: 'Basanta Utsab',
+    image: '/Holi.png',
     span: 'row-span-2'
   }
 ];
