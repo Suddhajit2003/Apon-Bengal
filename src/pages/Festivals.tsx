@@ -82,7 +82,7 @@ const festivalsData = [
     id: 10,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: '/c.jpeg',
+    image: '/Cristmas.jpeg',
     description: 'Christmas at DSA is a celebration of love, peace, and togetherness that transcends religious boundaries. The community comes together to decorate, sing carols, exchange gifts, and share festive meals. Special programs for children, cultural performances, and acts of charity mark this joyous occasion, reflecting the universal message of compassion and goodwill that Christmas represents.',
     imagePosition: 'right'
   },

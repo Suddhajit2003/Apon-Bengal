@@ -42,7 +42,7 @@ const festivalsImages = [
     id: 6,
     title: 'বড়োদিন',
     titleEn: 'Christmas',
-    image: '/c.jpeg',
+    image: '/Cristmas.jpeg',
     span: 'row-span-1'
   },
   {
