@@ -49,7 +49,7 @@ const festivalsImages = [
     id: 7,
     title: 'নববর্ষ',
     titleEn: 'New Year',
-    image: '/Newyear.jpeg',
+    image: '/n.png',
     span: 'row-span-1'
   },
   {
