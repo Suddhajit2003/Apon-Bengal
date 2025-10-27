@@ -211,10 +211,10 @@ export default function EmergencyServices() {
                       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-br from-white/40 via-blue-200/30 to-sky-300/50 opacity-60 group-hover:opacity-20 transition-opacity duration-300"></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-t from-white/95 via-white/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-0 left-0 right-0 p-4 text-black transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                         <h3 className="text-lg font-bold mb-1">{image.title}</h3>
-                        <p className="text-sm text-sky-200">{image.titleEn}</p>
+                        <p className="text-sm text-sky-700">{image.titleEn}</p>
                       </div>
                     </div>
                   </div>
@@ -234,10 +234,10 @@ export default function EmergencyServices() {
                       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-br from-white/40 via-blue-200/30 to-sky-300/50 opacity-60 group-hover:opacity-20 transition-opacity duration-300"></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-t from-white/95 via-white/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-0 left-0 right-0 p-4 text-black transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                         <h3 className="text-lg font-bold mb-1">{image.title}</h3>
-                        <p className="text-sm text-sky-200">{image.titleEn}</p>
+                        <p className="text-sm text-sky-700">{image.titleEn}</p>
                       </div>
                     </div>
                   </div>
