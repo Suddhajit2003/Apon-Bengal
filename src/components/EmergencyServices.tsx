@@ -13,7 +13,7 @@ const festivalsImages = [
   {
     id: 2,
     title: 'পবিত্র ঈদ',
-    titleEn: 'Holy Eid',
+    titleEn: 'Pobitra Eid',
     image: '/eid.jpg',
     span: 'row-span-1'
   },

@@ -103,7 +103,7 @@ export default function StatsCounter() {
           <div className="mb-16 w-full overflow-hidden">
             <h3 className="text-4xl lg:text-5xl font-bold text-center mb-8" style={{ color: '#0ea5e9' }}>Buzz in Bengal</h3>
             <br />
-            <div className="relative w-full overflow-hidden bg-gradient-to-r from-white via-gray-50 to-white rounded-2xl shadow-lg py-8">
+            <div className="relative w-full overflow-hidden bg-gradient-to-r from-white via-gray-50 to-white rounded-2xl shadow-lg py-12">
               <div 
                 className="flex gap-8 px-4"
                 style={{
@@ -113,81 +113,81 @@ export default function StatsCounter() {
               >
                 {[...Array(2)].map((_, setIndex) => (
                   <div key={setIndex} className="flex gap-8">
-                    <div className="flex-shrink-0" style={{ width: '320px', height: '280px' }}>
+                    <div className="flex-shrink-0" style={{ width: '360px', height: '420px' }}>
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
-                        <div className="relative h-32 overflow-hidden">
+                        <div className="relative h-56 overflow-hidden">
                           <img
                             src="/5.jpeg"
                             alt="Durga Puja"
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee hikes Durga Puja grant to Rs 1.10 lakh, waives tax & govt fees</h4>
+                        <div className="p-6 flex-1 flex flex-col justify-center">
+                          <h4 className="font-bold text-xl text-gray-900 mb-2 leading-tight">CM Mamata Banerjee hikes Durga Puja grant to Rs 1.10 lakh, waives tax & govt fees</h4>
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex-shrink-0" style={{ width: '320px', height: '280px' }}>
+                    <div className="flex-shrink-0" style={{ width: '360px', height: '420px' }}>
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
-                        <div className="relative h-32 overflow-hidden">
+                        <div className="relative h-56 overflow-hidden">
                           <img
                             src="/1.jpeg"
                             alt="Tea Gardens"
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">Country's first & only hospital with rooftop helipad launched in Kolkata
+                        <div className="p-6 flex-1 flex flex-col justify-center">
+                          <h4 className="font-bold text-xl text-gray-900 mb-2 leading-tight">Country's first & only hospital with rooftop helipad launched in Kolkata
                           </h4>
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex-shrink-0" style={{ width: '320px', height: '280px' }}>
+                    <div className="flex-shrink-0" style={{ width: '360px', height: '420px' }}>
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
-                        <div className="relative h-32 overflow-hidden">
+                        <div className="relative h-56 overflow-hidden">
                           <img
                             src="/2.jpeg"
                             alt="Cultural Night"
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">CM Mamata Banerjee Announces Compensation & Jobs for Landslide Victims' Families in Darjeeling
+                        <div className="p-6 flex-1 flex flex-col justify-center">
+                          <h4 className="font-bold text-xl text-gray-900 mb-2 leading-tight">CM Mamata Banerjee Announces Compensation & Jobs for Landslide Victims' Families in Darjeeling
                           </h4>
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex-shrink-0" style={{ width: '320px', height: '280px' }}>
+                    <div className="flex-shrink-0" style={{ width: '360px', height: '420px' }}>
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
-                        <div className="relative h-32 overflow-hidden">
+                        <div className="relative h-56 overflow-hidden">
                           <img
                             src="/3.jpeg"
                             alt="Artist"
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">West Bengal's Digha set to hold first Rath Yatra from new Jagannath temple
+                        <div className="p-6 flex-1 flex flex-col justify-center">
+                          <h4 className="font-bold text-xl text-gray-900 mb-2 leading-tight">West Bengal's Digha set to hold first Rath Yatra from new Jagannath temple
                           </h4>
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex-shrink-0" style={{ width: '320px', height: '280px' }}>
+                    <div className="flex-shrink-0" style={{ width: '360px', height: '420px' }}>
                       <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full h-full flex flex-col relative">
-                        <div className="relative h-32 overflow-hidden">
+                        <div className="relative h-56 overflow-hidden">
                           <img
                             src="/4.jpeg"
                             alt="Festival"
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <div className="p-4 flex-1 flex flex-col justify-center">
-                          <h4 className="font-bold text-lg text-gray-900 mb-2">Traditional Festival</h4>
-                          <p className="text-sm text-gray-600 leading-relaxed">Celebrating the cultural heritage of West Bengal.</p>
+                        <div className="p-6 flex-1 flex flex-col justify-center">
+                          <h4 className="font-bold text-xl text-gray-900 mb-2 leading-tight">Traditional Festival</h4>
+                          <p className="text-base text-gray-600 leading-relaxed">Celebrating the cultural heritage of West Bengal.</p>
                         </div>
                       </div>
                     </div>
