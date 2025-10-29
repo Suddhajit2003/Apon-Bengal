@@ -11,15 +11,15 @@ export default function Mission() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-8">
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 sm:px-8 py-8">
       <div className="max-w-5xl w-full">
-        <h1 className="text-5xl font-bold text-gray-900 mb-10">Mission</h1>
+        <h1 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-6 sm:mb-10">Mission</h1>
         
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-6">
           {missions.map((mission, index) => (
-            <div key={index} className="flex items-start gap-4">
-              <Check className="w-6 h-6 text-gray-900 flex-shrink-0 mt-0.5 font-bold stroke-[3]" />
-              <p className="text-lg text-gray-900 leading-relaxed font-normal">
+            <div key={index} className="flex items-start gap-3 sm:gap-4">
+              <Check className="w-5 h-5 sm:w-6 sm:h-6 text-gray-900 flex-shrink-0 mt-0.5 font-bold stroke-[3]" />
+              <p className="text-base sm:text-lg text-gray-900 leading-relaxed font-normal">
                 {mission}
               </p>
             </div>
