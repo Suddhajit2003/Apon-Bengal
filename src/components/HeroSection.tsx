@@ -18,7 +18,7 @@ export default function HeroSection() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="https://1nyr9ipn99.ucarecd.net/333dd236-9b92-4acc-bb2a-763d952a997f/ApanBanglaFinal11.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dmpuonbwk/video/upload/v1762855092/Apan_Bangla_Final_1_2_1_lbvszq.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
