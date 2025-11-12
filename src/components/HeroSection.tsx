@@ -39,7 +39,7 @@ export default function HeroSection() {
           }`}
           style={{ transitionDelay: '300ms' }}
         >
-          Re-root yourself in Bengal
+          re-root yourself in bengal
           <br />
           {/* সহজ, দ্রুত এবং স্বচ্ছ সেবা */}
         </p>
